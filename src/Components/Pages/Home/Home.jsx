@@ -5,7 +5,7 @@ import Services from "./Services";
 import Faq from "./Faq";
 
 const Home = () => {
-  useEffect(()=>{
+  useEffect(() => {
     let items = document.querySelectorAll(".carousel .carousel-item ");
 
     items.forEach((el) => {
@@ -22,30 +22,30 @@ const Home = () => {
       }
     });
   })
-  
+
   return (
     <>
       {/* Hero */}
       <section className="banner">
-      <div className="hero">
-        <div className="container">
-          <div className="text-area">
-            <h1 className="main-heading">WELCOME TO KODEGURUS</h1>
-            <h3 className="sub-heading">
-              We Build, We Create Digital Products
-              <br /> That Makes Sense
-            </h3>
-            <div className="buttons d-flex">
-              {/* <button className="primary-btn btn-primary firstbtn">
+        <div className="hero">
+          <div className="container">
+            <div className="text-area">
+              <h1 className="main-heading">WELCOME TO KODEGURUS</h1>
+              <h3 className="sub-heading">
+                We Build, We Create Digital Products
+                <br /> That Makes Sense
+              </h3>
+              <div className="buttons d-flex">
+                {/* <button className="primary-btn btn-primary firstbtn">
                 GET STARTED <i className="fa fa-long-arrow-alt-right"></i>
               </button> */}
-              <button className="bannerbtn btn">
-                HIRE DEVELOPER <i className="fa fa-long-arrow-alt-right"></i>
-              </button>
+                <button className="bannerbtn btn">
+                  HIRE DEVELOPER <i className="fa fa-long-arrow-alt-right"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </section>
 
       {/* About Card */}
@@ -116,21 +116,33 @@ const Home = () => {
           </div>
           <div className="row">
             {online.slice(0, 6).map((val, key) => (
-              <div key={key} className="box col-md-4 col-sm-6 col-xs-12">
-                <div className="box_content">
-                  <div className="img">
-                    <img src={val.cover} alt="logo" />
-                    <img src={val.hoverCover} alt="" className="show" />
+              // <div key={key} className="box col-md-4 col-sm-6 col-xs-12">
+              //   <div className="box_content">
+              //     <div className="img">
+              //       <img src={val.cover} alt="logo" />
+              //       <img src={val.hoverCover} alt="" className="show" />
+              //     </div>
+              //     <h1>{val.courseName}</h1>
+              //   </div>
+              // </div>
+              <div key={key} className="flip-card col-md-4 col-sm-6 p-2 col-xs-12">
+                <div className="flip-card-inner">
+                  <div className="flip-card-front">
+                    <img src={val.cover} alt="Avatar" />
+                    <h1>{val.courseName}</h1>
                   </div>
-                  <h1>{val.courseName}</h1>
+                  <div className="flip-card-back">
+                    <img src={val.hoverCover} alt="" />
+                    <h1>{val.courseName}</h1>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </section>
-      
-      <Services/>
+
+      <Services />
 
       {/* Testimonial */}
       <section className="testimonal">
@@ -302,8 +314,8 @@ const Home = () => {
         </div>
       </section>
 
-      <Faq/>
-      
+      <Faq />
+
     </>
   );
 };

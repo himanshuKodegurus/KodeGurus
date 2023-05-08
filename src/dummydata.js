@@ -194,12 +194,12 @@ export const online = [
   {
     cover: "./images/icon/contentMarketing.png",
     hoverCover: "./images/icon/contentMarketingHover.png",
-    courseName: "Content Marketing",
+    courseName: "Content Writing",
   },
   {
     cover: "./images/icon/digitalMarketing.png",
     hoverCover: "./images/icon/digitalMarketingHover.png",
-    courseName: "Marketing",
+    courseName: "Digital Marketing",
   },
   {
     cover: "./images/courses/online/o2.png",
