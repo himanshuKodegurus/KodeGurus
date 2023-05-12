@@ -176,20 +176,15 @@ export const online = [
     courseName: "UI/UX Design ",
   },
   {
-    cover: "./images/courses/online/o3.png",
-    hoverCover: "./images/courses/online/o3.1.png",
-    courseName: "Web Developement",
-  },
-  {
     // cover: "./images/icon/crm.png",
     cover: "./images/icon/crm.png",
     hoverCover: "./images/icon/crmHover.png",
     courseName: "CRM Development Services",
   },
   {
-    cover: "./images/courses/online/o7.png",
-    hoverCover: "./images/courses/online/o7.1.png",
-    courseName: "Full Stack Developement",
+    cover: "./images/icon/development.png",
+    hoverCover: "./images/icon/developmentHover.png",
+    courseName: "Web Developement",
   },
   {
     cover: "./images/icon/contentMarketing.png",
@@ -200,6 +195,11 @@ export const online = [
     cover: "./images/icon/digitalMarketing.png",
     hoverCover: "./images/icon/digitalMarketingHover.png",
     courseName: "Digital Marketing",
+  },
+  {
+    cover: "./images/icon/googleAds.png",
+    hoverCover: "./images/icon/googleAdsHover.png",
+    courseName: "Google Ads/PPC",
   },
   {
     cover: "./images/courses/online/o2.png",
@@ -232,7 +232,33 @@ export const online = [
     hoverCover: "./images/courses/online/o11.1.png",
     courseName: "Business Administration",
   },
-
+]
+export const process = [
+  {
+    processIcon: "./images/icon/processIcon1.png",
+    processIconHover:"./images/icon/processIcon1Hover.png",
+    processName: "Research ",
+  },
+  {
+    processIcon: "./images/icon/processIcon2.png",
+    processIconHover:"./images/icon/processIcon2Hover.png",
+    processName: "Design",
+  },
+  {
+    processIcon: "./images/icon/processIcon3.png",
+    processIconHover:"./images/icon/processIcon3Hover.png",
+    processName: "Developement",
+  },
+  {
+    processIcon: "./images/icon/processIcon4.png",
+    processIconHover:"./images/icon/processIcon4Hover.png",
+    processName: "Testing",
+  },
+  {
+    processIcon: "./images/icon/processIcon5.png",
+    processIconHover:"./images/icon/processIcon5Hover.png",
+    processName: "Launch",
+  },
 ]
 export const team = [
   {
@@ -368,14 +394,14 @@ export const testimonal = [
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
+    name: "Krishna",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t2.webp",
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
+    name: "Madhav Singh",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t3.webp",

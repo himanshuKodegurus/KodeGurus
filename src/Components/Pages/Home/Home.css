@@ -485,7 +485,11 @@
 .flip-card-back h1{
   color: #c89666;
 }
-
+@media only screen and (max-width: 1024px){
+  .online h1 {
+    font-size: 18px;
+  }
+}
 @media (max-width: 767px) {
   .carousel-inner .carousel-item > div {
     display: none;

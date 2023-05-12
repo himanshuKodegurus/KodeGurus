@@ -74,7 +74,7 @@ const Header = () => {
                 onClick={() => showSubMenus("1")} onMouseEnter={() => showSubMenus("1")}
                  onMouseLeave={()=>showSubMenus(" ")}
               >
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/service">
                   Services
                   <i className="menuIcon fa fa-angle-right" aria-hidden="true"
                   ></i>

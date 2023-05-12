@@ -50,7 +50,7 @@ const Home = () => {
 
       {/* About Card */}
       <section className="aboutHome">
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <div className="col-md-5">
               <div className="left">
@@ -168,7 +168,7 @@ const Home = () => {
                             <i className="fa fa-quote-left quoteIcon"></i>
                           </div>
                           <div className="name">
-                            <h2>ROGER SCOTT</h2>
+                            <h2>Krishna </h2>
                             <span>MARKETING MANAGER</span>
                           </div>
                         </div>
@@ -189,7 +189,7 @@ const Home = () => {
                             <i className="fa fa-quote-left quoteIcon"></i>
                           </div>
                           <div className="name">
-                            <h2>ROGER SCOTT</h2>
+                            <h2>Madhav Singh</h2>
                             <span>MARKETING MANAGER</span>
                           </div>
                         </div>
@@ -210,7 +210,7 @@ const Home = () => {
                             <i className="fa fa-quote-left quoteIcon"></i>
                           </div>
                           <div className="name">
-                            <h2>ROGER SCOTT</h2>
+                            <h2>Rajat Sharma</h2>
                             <span>MARKETING MANAGER</span>
                           </div>
                         </div>
@@ -231,7 +231,7 @@ const Home = () => {
                             <i className="fa fa-quote-left quoteIcon"></i>
                           </div>
                           <div className="name">
-                            <h2>ROGER SCOTT</h2>
+                            <h2>Chhavi Sharma</h2>
                             <span>MARKETING MANAGER</span>
                           </div>
                         </div>
@@ -252,7 +252,7 @@ const Home = () => {
                             <i className="fa fa-quote-left quoteIcon"></i>
                           </div>
                           <div className="name">
-                            <h2>ROGER SCOTT</h2>
+                            <h2>Kel SCOTT</h2>
                             <span>MARKETING MANAGER</span>
                           </div>
                         </div>
