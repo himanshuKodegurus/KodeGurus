@@ -6,13 +6,13 @@ export const homeAbout = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    id: 1,
+    id: 2,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Earn A Certificates",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
-    id: 1,
+    id: 3,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
     title: "Learn with Expert",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
@@ -20,25 +20,25 @@ export const homeAbout = [
 ]
 export const awrapper = [
   {
-    cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "3,000",
-    title: "SUCCESS STORIES",
+    cover: "./images/icon/ourClient.png",
+    data: 100,
+    title: "Our clients",
   },
 
   {
-    cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "320",
-    title: "TRUSTED TUTORS",
+    cover: "./images/icon/liveProjects.png",
+    data: 40,
+    title: "Live Projects",
   },
   {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-    data: "1,000",
-    title: "SCHEDULES",
+    cover: "./images/icon/completedProjetcs.png",
+    data: 100,
+    title: "Completed Projects",
   },
   {
-    cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
-    title: "COURSES",
+    cover: "./images/icon/ourStaff.png",
+    data: 50,
+    title: "Our Staff",
   },
 ]
 export const coursesCard = [
@@ -171,66 +171,47 @@ export const coursesCard = [
 ]
 export const online = [
   {
+    id:"service1",
     cover: "./images/icon/service1.png",
     hoverCover: "./images/icon/service1hover.png",
     courseName: "UI/UX Design ",
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
   },
   {
     // cover: "./images/icon/crm.png",
+    id:"service2",
     cover: "./images/icon/crm.png",
     hoverCover: "./images/icon/crmHover.png",
     courseName: "CRM Development Services",
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
   },
   {
+    id:"service3",
     cover: "./images/icon/development.png",
     hoverCover: "./images/icon/developmentHover.png",
     courseName: "Web Developement",
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
   },
   {
+    id:"service4",
     cover: "./images/icon/contentMarketing.png",
     hoverCover: "./images/icon/contentMarketingHover.png",
     courseName: "Content Writing",
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
   },
   {
+    id:"service5",
     cover: "./images/icon/digitalMarketing.png",
     hoverCover: "./images/icon/digitalMarketingHover.png",
     courseName: "Digital Marketing",
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
   },
   {
+    id:"service6",
     cover: "./images/icon/googleAds.png",
     hoverCover: "./images/icon/googleAdsHover.png",
     courseName: "Google Ads/PPC",
-  },
-  {
-    cover: "./images/courses/online/o2.png",
-    hoverCover: "./images/courses/online/o2.1.png",
-    courseName: "Graphic Design",
-  },
-  {
-    cover: "./images/courses/online/o4.png",
-    hoverCover: "./images/courses/online/o4.1.png",
-    courseName: "Social Media Marketing",
-  },
-  {
-    cover: "./images/courses/online/o6.png",
-    hoverCover: "./images/courses/online/o6.1.png",
-    courseName: "Information Software",
-  },
-
-  {
-    cover: "./images/courses/online/o9.png",
-    hoverCover: "./images/courses/online/o9.1.png",
-    courseName: "Graphic Design",
-  },
-  {
-    cover: "./images/courses/online/o10.png",
-    hoverCover: "./images/courses/online/o10.1.png",
-    courseName: "Fintech Developement",
-  },
-  {
-    cover: "./images/courses/online/o11.png",
-    hoverCover: "./images/courses/online/o11.1.png",
-    courseName: "Business Administration",
+    paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
   },
 ]
 export const process = [
@@ -382,6 +363,18 @@ export const blog = [
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
     cover: "../images/blog/b6.webp",
+  },
+]
+export const portfolio = [
+  {
+    id:1,
+    image:"./images/icon/try1.png",
+    hoverImage:"./images/icon/try1Hover.png"
+  },
+  {
+    id:2,
+    image:"./images/icon/try2.png",
+    hoverImage:"./images/icon/try2Hover.png"
   },
 ]
 export const testimonal = [

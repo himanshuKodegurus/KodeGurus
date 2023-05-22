@@ -4,7 +4,10 @@ import './faq.css';
 const Faq = () => {
     return (
         <>
-            <div className="container">
+            <div className="container faq">
+                <div id="heading">
+                <h2 className='text-center'>Frequently Asked Questions </h2>
+                </div>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="accordion accordion-flush" id="accordionFlushExample">
@@ -38,18 +41,14 @@ const Faq = () => {
                                     <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum molestias deleniti cupiditate molestiae possimus sequi ea, vero ducimus saepe temporibus asperiores earum? Temporibus quod ipsa architecto? Sunt, praesentium incidunt.</div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="accordion accordion-flush" id="accordionFlushSecondExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="true" aria-controls="flush-collapseFour">
                                         Item #4
                                     </button>
                                 </h2>
-                                <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
-                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas architecto consequuntur ullam sequi! Nobis doloribus voluptatem numquam officiis, atque eius velit, ducimus sint debitis, saepe veritatis libero? Sit voluptatem ipsa quis omnis aliquam vel dicta quo iste, exercitationem incidunt!</div>
+                                <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum molestias deleniti cupiditate molestiae possimus sequi ea, vero ducimus saepe temporibus asperiores earum? Temporibus quod ipsa architecto? Sunt, praesentium incidunt.</div>
                                 </div>
                             </div>
                             <div className="accordion-item">
@@ -58,10 +57,14 @@ const Faq = () => {
                                         Item #5
                                     </button>
                                 </h2>
-                                <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
-                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eos iste dolor laboriosam eius optio tempora voluptas voluptates assumenda hic reprehenderit sunt fuga nulla ad quos esse quibusdam velit recusandae provident saepe ab. Minus, voluptate aut! Veritatis tenetur nulla dolores.</div>
+                                <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum molestias deleniti cupiditate molestiae possimus sequi ea, vero ducimus saepe temporibus asperiores earum? Temporibus quod ipsa architecto? Sunt, praesentium incidunt.</div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="accordion accordion-flush" id="accordionFlushSecondExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="true" aria-controls="flush-collapseSix">
@@ -69,6 +72,46 @@ const Faq = () => {
                                     </button>
                                 </h2>
                                 <div id="flush-collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
+                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas architecto consequuntur ullam sequi! Nobis doloribus voluptatem numquam officiis, atque eius velit, ducimus sint debitis, saepe veritatis libero? Sit voluptatem ipsa quis omnis aliquam vel dicta quo iste, exercitationem incidunt!</div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="true" aria-controls="flush-collapseSeven">
+                                        Item #7
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
+                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eos iste dolor laboriosam eius optio tempora voluptas voluptates assumenda hic reprehenderit sunt fuga nulla ad quos esse quibusdam velit recusandae provident saepe ab. Minus, voluptate aut! Veritatis tenetur nulla dolores.</div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="true" aria-controls="flush-collapseEight">
+                                        Item #8
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseEight" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
+                                    <div className="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis debitis quis impedit error unde consequatur reprehenderit libero repudiandae, deleniti dolorem! Quasi maiores quo tempore culpa tenetur harum, aliquam, facere, iste at praesentium exercitationem atque odit? Quia ad reiciendis voluptas assumenda.</div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="true" aria-controls="flush-collapseNine">
+                                        Item #9
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseNine" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
+                                    <div className="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis debitis quis impedit error unde consequatur reprehenderit libero repudiandae, deleniti dolorem! Quasi maiores quo tempore culpa tenetur harum, aliquam, facere, iste at praesentium exercitationem atque odit? Quia ad reiciendis voluptas assumenda.</div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="true" aria-controls="flush-collapseTen">
+                                        Item #10
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTen" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
                                     <div className="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis debitis quis impedit error unde consequatur reprehenderit libero repudiandae, deleniti dolorem! Quasi maiores quo tempore culpa tenetur harum, aliquam, facere, iste at praesentium exercitationem atque odit? Quia ad reiciendis voluptas assumenda.</div>
                                 </div>
                             </div>

@@ -45,11 +45,15 @@ const Header = () => {
             </div>
           </div>
         </div> */}
-        <nav className="navbar navbar-expand-lg ">
+        <nav className="navbar navbar-expand-lg p-0 ">
+          {/* <div className="jkl" style={{backgroundColor:"#e1b382"}}>
+              
+          </div> */}
           <Link to={"/"} className="navbar-brand p-0">
             <div className="logo">
-              <h1 className="m-0">KODEGURUS</h1>
-              <span>Build Innovate & Inspire</span>
+            <img src="./images/logo/logo-5.png" alt="Logo" className="mainLogo"/>
+              {/* <h1 className="m-0">KODEGURUS</h1>
+              <span>Build Innovate & Inspire</span> */}
             </div>
           </Link>
           <button
@@ -268,7 +272,7 @@ const Header = () => {
                 }
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/portfolio">
                   Portfolio
                   <i
                     className="menuIcon fa fa-angle-right"
@@ -286,7 +290,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/contact">
                   Contact Us
                   <i
                     className="menuIcon fa fa-angle-right"

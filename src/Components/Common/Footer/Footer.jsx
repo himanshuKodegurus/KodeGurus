@@ -4,7 +4,7 @@ import "../Footer/Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="text-center">
       <div className="container footer">
         <div className="row m-0">
           <div className="col-md-3 col-sm-6 col-6">
@@ -26,7 +26,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <div >
                   <ul className="footer-icons">
                     <li>
                       <Link to="mailto:feedback@geeksforgeeks.org">
@@ -49,7 +48,6 @@ const Footer = () => {
                       </Link>
                     </li>
                   </ul>
-                </div>
               </li>
             </ul>
           </div>

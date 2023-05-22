@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import "./Home.css";
-import { awrapper, online } from "../../../dummydata";
-import Services from "./Services";
+import { awrapper, online, portfolio } from "../../../dummydata";
+import Services from "./Process";
 import Faq from "./Faq";
+import CountUp from 'react-countup';
+import CarouselContainer from "./Carousel";
 
 const Home = () => {
   useEffect(() => {
@@ -94,10 +96,11 @@ const Home = () => {
               return (
                 <div key={key} className="col-3 box">
                   <div className="icon_img">
-                    <img src={val.cover} alt="" />
+                    <img src={val.cover} alt="images" />
                   </div>
                   <div className="text">
-                    <h1>{val.data}</h1>
+                    <h1><CountUp duration={2.5} start={1} end={val.data} enableScrollSpy={true} scrollSpyOnce={true}>
+                      {({ countUpRef }) => <span ref={countUpRef} />}</CountUp></h1>
                     <h3>{val.title}</h3>
                   </div>
                 </div>
@@ -107,35 +110,29 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Online Courses  */}
+      {/* Online Services  */}
       <section className="online">
         <div className="container">
           <div id="heading">
-            <h3>COURSES</h3>
+            <h3>SERVICES</h3>
             <h1>Browse Our Online Services</h1>
           </div>
           <div className="row">
             {online.slice(0, 6).map((val, key) => (
-              // <div key={key} className="box col-md-4 col-sm-6 col-xs-12">
-              //   <div className="box_content">
-              //     <div className="img">
-              //       <img src={val.cover} alt="logo" />
-              //       <img src={val.hoverCover} alt="" className="show" />
-              //     </div>
-              //     <h1>{val.courseName}</h1>
-              //   </div>
-              // </div>
               <div key={key} className="flip-card col-md-4 col-sm-6 p-2 col-xs-12">
-                <div className="flip-card-inner">
-                  <div className="flip-card-front">
-                    <img src={val.cover} alt="Avatar" />
-                    <h1>{val.courseName}</h1>
+                <a href={`/service#service${key + 1}`} >
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img src={val.cover} alt="Avatar" />
+                      <h1>{val.courseName}</h1>
+                    </div>
+                    <div className="flip-card-back">
+                      <img src={val.hoverCover} alt="" />
+                      <h1>{val.courseName}</h1>
+                      {/* <a href={`/service#service${key + 1}`} className='btn btn-info'>Know More</a> */}
+                    </div>
                   </div>
-                  <div className="flip-card-back">
-                    <img src={val.hoverCover} alt="" />
-                    <h1>{val.courseName}</h1>
-                  </div>
-                </div>
+                </a>
               </div>
             ))}
           </div>
@@ -313,9 +310,37 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
 
+      
+      {/* Portfolio Section */}
+      <section className="portfolioSection">
+        <div className="container">
+          <div id="heading">
+          <h2 className="text-center">Our Portfolio</h2>
+          </div>
+          <div className="row">
+            {
+              portfolio.map((value, key) => {
+                return (
+                  <div key={key} className="col-md-6 p-2">
+                    <div className="card portfolio">
+                      <div className="myDiv">
+                        <img src={value.image} alt="Image" className="img-fluid" />
+                      </div>
+                      <div className="hide">
+                        <img src={value.hoverImage} alt="Icons" className="img-fluid" />
+                      </div>
+                    </div>
+                  </div>
+                )
+              })
+            }
+
+          </div>
+        </div>
+      </section>
       <Faq />
-
     </>
   );
 };

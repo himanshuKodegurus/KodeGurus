@@ -1,0 +1,15 @@
+.aboutBanner{
+    background-image: url("../../../../public/images/Icon/contactUs.png");
+  background-size: cover;
+  height: 200px;
+  /* padding-top: 25%; */
+  color: #fff;
+  margin: 0 0 70px 0;
+}
+.aboutContent h1{
+    color: #12343b;
+    text-align: center;
+}
+.aboutContent p{
+    color: #12343b;
+}
