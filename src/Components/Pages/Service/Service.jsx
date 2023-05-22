@@ -9,9 +9,9 @@ const Service = () => {
     const handleCardClick = (heading, paragraph) => {
         setSelectedCard({ heading, paragraph });
     };
+    const id = window.location.hash.substr(1);
 
     useEffect(() => {
-        const id = window.location.hash.substr(1);
         // console.log(id);
         const onlineCourse = online.find(course => course.id === id);
         if (onlineCourse) {
@@ -19,7 +19,8 @@ const Service = () => {
         }
         const targetElement = document.getElementById("service");
         targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, []);
+    }, [id]);
+
     return (
         <>
             <section>
@@ -36,7 +37,7 @@ const Service = () => {
                                 <div
                                     key={key}
                                     className="flip-card col-md-4 col-sm-6 p-2 col-xs-12">
-                                    <Link to="#service" onClick={() => handleCardClick(val.courseName, val.paragraph)}>
+                                    <Link to={`/service#service${key + 1}`} onClick={() => handleCardClick(val.courseName, val.paragraph)}>
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
                                                 <img src={val.cover} alt="Avatar" />

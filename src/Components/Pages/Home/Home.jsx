@@ -5,6 +5,7 @@ import Services from "./Process";
 import Faq from "./Faq";
 import CountUp from 'react-countup';
 import CarouselContainer from "./Carousel";
+import Process from "./Process";
 
 const Home = () => {
   useEffect(() => {
@@ -139,7 +140,7 @@ const Home = () => {
         </div>
       </section>
 
-      <Services />
+      <Process />
 
       {/* Testimonial */}
       <section className="testimonal">

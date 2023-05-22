@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Process.css";
 import { process } from "../../../dummydata";
 
-const Services = () => {
+const Process = () => {
     return (
         <>
             <div className="container-fluid">
@@ -18,11 +18,13 @@ const Services = () => {
                                 <div className="iconContainer">
                                     <div className="myDIV">
                                         <img src={value.processIcon} alt="Icons" className="processIcon" />
+                                        <h5 className="my-2">{value.processName}</h5>
                                     </div>
                                     <div className="hide">
                                         <img src={value.processIconHover} alt="Icons" className="processIconHover" />
+                                        <h5 className="my-2">{value.processName}</h5>
                                     </div>
-                                    <h5 className="my-2">{value.processName}</h5>
+                                    
                                 </div>
                                 <span className="rightIcon">
                                     <i className="fa-solid fa-arrow-right"></i>
@@ -37,4 +39,4 @@ const Services = () => {
     )
 }
 
-export default Services;
+export default Process;

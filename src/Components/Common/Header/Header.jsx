@@ -300,7 +300,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link hire" to="/">
-                  Hire Developer
+                  Hire Us
                 </Link>
               </li>
             </ul>

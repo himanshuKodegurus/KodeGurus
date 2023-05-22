@@ -10,12 +10,17 @@
   max-width: 82%;
   object-fit: cover;
 }
+.hide h5{
+  color: #e2a66c;
+  transition:0.5s;
+}
 .processIconHover {
   max-width: 82%!important;
 }
 .hide {
   display: none;
 }
+
 .iconContainer:hover {
   background-color: #12343b;
   cursor: pointer;
