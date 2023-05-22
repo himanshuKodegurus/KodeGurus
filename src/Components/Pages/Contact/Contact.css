@@ -1,0 +1,78 @@
+.contactUsPage {
+    background-image: url("../../../../public/images/Icon/contactUs.png");
+    background-size: cover;
+    height: 200px;
+    padding-top: 25%;
+    color: #fff;
+    margin: 0 0 70px 0;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 600px;
+    height: 500px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none;
+    width: 600px;
+    height: 500px;
+}
+
+.gmap_iframe {
+    width: 600px;
+    height: 500px;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box-content {
+    text-align: start;
+    margin-top: 20px;
+}
+
+.contactIcon {
+    padding: 15px;
+    background-color: #c89666;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.icon-box-title,
+.icon-box-description {
+    color: #12343b;
+}
+
+.contactBtn {
+    background-color: #12343b;
+    color: #c89666;
+}
+
+.form-control {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+@media only screen and (max-width:768px) {
+    .mapouter {
+        position: relative;
+        text-align: right;
+        width: 100%;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        width: 100%;
+    }
+
+    .gmap_iframe {
+        width: 100%;
+    }
+}

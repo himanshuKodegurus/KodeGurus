@@ -1,0 +1,9 @@
+/* .portfolioFlipCards{
+    height: 150px!important;
+} */
+.carousel.carousel-slider {
+    overflow: initial!important;
+}
+.control-dots{
+    bottom: -30px!important;
+}

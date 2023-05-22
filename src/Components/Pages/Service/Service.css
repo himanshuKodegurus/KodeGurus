@@ -1,0 +1,42 @@
+.serviceBanner{
+    background-image: url("../../../../public/images/service/banner.jpg");
+    background-size: cover;
+    padding-right: 0px!important;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 30%;
+    height: 100%;
+    margin: 0 0 70px 0;
+}
+.serviceImages{
+    width:800px;
+    height:400px;
+}
+.entry-meta {
+    margin: 0 0 1.5em;
+    border: 0 solid #e9ecef;
+    display: flex;
+    justify-content:center;
+}
+.serviceText{
+    color:#2d545e;
+}
+.serviceHeading,.entry-meta{
+    color:#12343b;
+}
+.entry-meta>span {
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+.entry-meta a{
+    color:#12343b;
+    font-weight:bold;
+}
+.entry-meta div{
+    margin:40px 0;
+    margin-right: 1.5rem;
+}
+.read-or-hide{
+    color: blue;
+    cursor: pointer;
+  }
