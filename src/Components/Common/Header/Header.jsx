@@ -299,7 +299,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link hire" to="/">
+                <Link className="nav-link hire" to="mailto:info@kodegurus.com">
                   Hire Us
                 </Link>
               </li>
