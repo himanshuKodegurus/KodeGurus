@@ -299,7 +299,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link hire" to="mailto:info@kodegurus.com">
+                <Link className="nav-link hire" to="https://mail.google.com/mail/?view=cm&fs=1&to=info@kodegurus.com" target="_blank">
                   Hire Us
                 </Link>
               </li>
