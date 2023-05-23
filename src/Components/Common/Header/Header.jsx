@@ -247,7 +247,7 @@ const Header = () => {
                   </div>
                 )}
               </li>
-              <li className="nav-item"  onClick={() => showSubMenus("2")} onMouseEnter={() => showSubMenus("2")}
+              {/* <li className="nav-item"  onClick={() => showSubMenus("2")} onMouseEnter={() => showSubMenus("2")}
                  onMouseLeave={()=>showSubMenus(" ")}>
                 <Link className="nav-link productmenu" to="/">
                   Products
@@ -270,7 +270,7 @@ const Header = () => {
                     </div>
                   )
                 }
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link" to="/portfolio">
                   Portfolio

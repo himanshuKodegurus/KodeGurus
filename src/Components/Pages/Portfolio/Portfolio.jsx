@@ -4,34 +4,17 @@ import { Carousel } from 'react-responsive-carousel';
 import { online } from '../../../dummydata';
 
 const Portfolio = () => {
-    const renderArrowPrev = (onClickHandler, hasPrev) => {
-        return (
-          hasPrev && (
-            <button onClick={onClickHandler} type="button" className="control-prev control-arrow my-custom-prev-button" />
-          )
-        );
-      };
-    
-      const renderArrowNext = (onClickHandler, hasNext) => {
-        return (
-          hasNext && (
-            <button onClick={onClickHandler} type="button" className="control-next control-arrow my-custom-next-button" />
-          )
-        );
-      };
     return (
         <>
             <section>
                 <div className="container my-5">
                     <h2 className='text-center my-4'>Portfolio</h2>
                     <Carousel
-                        autoPlay={true}
+                        // autoPlay={true}
                         showThumbs={false}
                         showStatus={false}
                         showArrows={true}
                         useKeyboardArrows={true}
-                        renderArrowPrev={renderArrowPrev}
-                        renderArrowNext={renderArrowNext}
                     >
                         <div>
                             <div className="row">

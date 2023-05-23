@@ -29,7 +29,7 @@ const Service = () => {
                 <section className="online">
                     <div className="container">
                         <div id="heading">
-                            <h3>COURSES</h3>
+                            <h3>SERVICES</h3>
                             <h1>Browse Our Online Services</h1>
                         </div>
                         <div className="row">
