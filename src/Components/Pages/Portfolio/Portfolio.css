@@ -2,35 +2,19 @@
     height: 150px!important;
 } */
 .carousel.carousel-slider {
-    overflow: initial!important;
-}
-.control-dots{
-    bottom: -30px;
-}
-.carousel.carousel-slider .control-arrow {
-    top: 0;
-    color: #fff;
-    font-size: 26px;
-    bottom: 0;
-    margin-top: 0;
-    padding: 5px;
-}
-.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
-    margin: 0 5px;
-    display: inline-block;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    content: '';
-}
-.carousel .control-prev .control-arrow:before,.carousel .control-next .control-arrow:before {
-    border-right: 8px solid #fff;
-}
-.my-custom-prev-button,
-.my-custom-next-button {
-  background-color: transparent;
+    overflow: initial !important;
 }
 
-.my-custom-prev-button:hover,
-.my-custom-next-button:hover {
-  background-color: transparent;
+.control-dots {
+    bottom: -30px;
+}
+.carousel .carousel-slider .control-arrow:hover {
+    background: transparent!important;
+}
+.carousel .control-next {
+    /* Add your styles here */
+}
+
+.carousel .control-prev {
+    /* Add your styles here */
 }
