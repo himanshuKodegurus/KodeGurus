@@ -173,7 +173,8 @@ export const online = [
   {
     id:"service1",
     cover: "./images/icon/service1.png",
-    hoverCover: "./images/icon/service1hover.png",
+    size: '1400-933',
+    hoverCover: "./images/icon/service1.png",
     courseName: "UI/UX Design ",
     paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
   },
@@ -181,6 +182,7 @@ export const online = [
     // cover: "./images/icon/crm.png",
     id:"service2",
     cover: "./images/icon/crm.png",
+    size: '1400-933',
     hoverCover: "./images/icon/crmHover.png",
     courseName: "CRM Development Services",
     paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
@@ -188,6 +190,7 @@ export const online = [
   {
     id:"service3",
     cover: "./images/icon/development.png",
+    size: '1400-933',
     hoverCover: "./images/icon/developmentHover.png",
     courseName: "Web Developement",
     paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
@@ -195,6 +198,7 @@ export const online = [
   {
     id:"service4",
     cover: "./images/icon/contentMarketing.png",
+    size: '1400-933',
     hoverCover: "./images/icon/contentMarketingHover.png",
     courseName: "Content Writing",
     paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
@@ -202,6 +206,7 @@ export const online = [
   {
     id:"service5",
     cover: "./images/icon/digitalMarketing.png",
+    size: '1400-933',
     hoverCover: "./images/icon/digitalMarketingHover.png",
     courseName: "Digital Marketing",
     paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
@@ -209,6 +214,7 @@ export const online = [
   {
     id:"service6",
     cover: "./images/icon/googleAds.png",
+    size: '1400-933',
     hoverCover: "./images/icon/googleAdsHover.png",
     courseName: "Google Ads/PPC",
     paragraph:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
@@ -365,7 +371,7 @@ export const blog = [
     cover: "../images/blog/b6.webp",
   },
 ]
-export const portfolio = [
+export const homePortfolio = [
   {
     id:1,
     image:"./images/icon/try1.png",
@@ -375,6 +381,51 @@ export const portfolio = [
     id:2,
     image:"./images/icon/try2.png",
     hoverImage:"./images/icon/try2Hover.png"
+  },
+]
+export const portfolio = [
+  {
+    id:"service1",
+    cover: "./images/portfolio/Portfolio1.png",
+    size: '1100-933',
+    hoverCover: "./images/portfolio/Portfolio1.png",
+    courseName: "SP Immigration Services",
+  },
+  {
+    // cover: "./images/icon/crm.png",
+    id:"service2",
+    cover: "./images/portfolio/Portfolio2.png",
+    size: '1400-933',
+    hoverCover: "./images/portfolio/Portfolio2.png",
+    courseName: "SaveMyCodes",
+  },
+  {
+    id:"service3",
+    cover: "./images/portfolio/Portfolio3.png",
+    size: '1400-933',
+    hoverCover: "./images/portfolio/Portfolio3.png",
+    courseName: "G-Tab",
+  },
+  {
+    id:"service4",
+    cover: "./images/portfolio/Portfolio4.png",
+    size: '1400-933',
+    hoverCover: "./images/portfolio/Portfolio4.png",
+    courseName: "Security Cam Helpline",
+  },
+  {
+    id:"service5",
+    cover: "./images/portfolio/Portfolio5.png",
+    size: '1400-933',
+    hoverCover: "./images/portfolio/Portfolio5.png",
+    courseName: "Digital Marketing",
+  },
+  {
+    id:"service6",
+    cover: "./images/portfolio/Portfolio6.png",
+    size: '1400-933',
+    hoverCover: "./images/portfolio/Portfolio6.png",
+    courseName: "Google Ads/PPC",
   },
 ]
 export const testimonal = [
