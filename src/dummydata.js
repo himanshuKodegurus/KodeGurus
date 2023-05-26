@@ -171,7 +171,7 @@ export const coursesCard = [
 ]
 export const online = [
   {
-    id:"service1",
+    id:"1",
     cover: "./images/icon/service1.png",
     size: '1400-933',
     hoverCover: "./images/icon/service1.png",
@@ -385,47 +385,53 @@ export const homePortfolio = [
 ]
 export const portfolio = [
   {
-    id:"service1",
+    id:"1",
     cover: "./images/portfolio/Portfolio1.png",
-    size: '1100-933',
+    height:"100%" ,
     hoverCover: "./images/portfolio/Portfolio1.png",
     courseName: "SP Immigration Services",
+    url:"https://spimmigrations.com"
   },
   {
     // cover: "./images/icon/crm.png",
-    id:"service2",
+    id:"2",
     cover: "./images/portfolio/Portfolio2.png",
-    size: '1400-933',
+    height:"100%" ,
     hoverCover: "./images/portfolio/Portfolio2.png",
     courseName: "SaveMyCodes",
+    url:"https://savemycodes.com"
   },
   {
-    id:"service3",
+    id:"3",
     cover: "./images/portfolio/Portfolio3.png",
-    size: '1400-933',
+    height:"100%" ,
     hoverCover: "./images/portfolio/Portfolio3.png",
     courseName: "G-Tab",
+    url:"https://www.gpshelpline.com"
   },
   {
-    id:"service4",
+    id:"4",
     cover: "./images/portfolio/Portfolio4.png",
-    size: '1400-933',
+    height:"100%" ,
     hoverCover: "./images/portfolio/Portfolio4.png",
     courseName: "Security Cam Helpline",
+    url:"https://g-tab.ae"
   },
   {
-    id:"service5",
+    id:"5",
     cover: "./images/portfolio/Portfolio5.png",
-    size: '1400-933',
+    height:"100%" ,
     hoverCover: "./images/portfolio/Portfolio5.png",
     courseName: "Digital Marketing",
+    url:"https://securitycamhelpline.us"
   },
   {
-    id:"service6",
+    id:"6",
     cover: "./images/portfolio/Portfolio6.png",
-    size: '1400-933',
+    height: "100%",
     hoverCover: "./images/portfolio/Portfolio6.png",
     courseName: "Google Ads/PPC",
+    url:"https://fabkhata.com"
   },
 ]
 export const testimonal = [

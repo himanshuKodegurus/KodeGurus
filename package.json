@@ -10,6 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "i": "^0.3.7",
+    "lg-thumbnail": "^1.2.1",
     "lightgallery": "^2.7.1",
     "npm": "^9.6.7",
     "react": "^18.2.0",
