@@ -51,7 +51,7 @@ const Header = () => {
           </div> */}
           <Link to={"/"} className="navbar-brand p-0">
             <div className="logo">
-            <img src="./images/logo/logo-5.png" alt="Logo" className="mainLogo"/>
+            <img src="./images/logo/logo22.png" alt="Logo" className="mainLogo"/>
               {/* <h1 className="m-0">KODEGURUS</h1>
               <span>Build Innovate & Inspire</span> */}
             </div>
@@ -298,8 +298,8 @@ const Header = () => {
                   ></i>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link hire" to="/">
+              <li className="nav-item hireBtn">
+                <Link className="nav-link hire py-0" to="https://mail.google.com/mail/?view=cm&fs=1&to=info@kodegurus.com" target="_blank">
                   Hire Us
                 </Link>
               </li>

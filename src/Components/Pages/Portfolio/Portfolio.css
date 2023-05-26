@@ -1,20 +1,147 @@
-/* .portfolioFlipCards{
-    height: 150px!important;
-} */
-.carousel.carousel-slider {
-    overflow: initial !important;
+.carousel .slide {
+  /* background-color: #f8f9fa !important; */
 }
 
-.control-dots {
-    bottom: -30px;
-}
-.carousel .carousel-slider .control-arrow:hover {
-    background: transparent!important;
-}
-.carousel .control-next {
-    /* Add your styles here */
+/* style for prev/next button */
+.carousel-slider .arrow-left {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  padding: 0;
+  left: 10px !important;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  line-height: 0;
+  text-align: center;
+  font-size: 25px;
+  z-index: 99;
 }
 
-.carousel .control-prev {
-    /* Add your styles here */
+.carousel-slider .arrow-left>span {
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.carousel-slider .arrow-right {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  padding: 0;
+  right: 10px !important;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  line-height: 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+.carousel-slider .arrow-right>span {
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* hide prev/next button in mobile client */
+@media (max-width: 991.98px) {
+  .carousel-slider .arrow-left {
+    display: none;
+  }
+
+  .carousel-slider .arrow-right {
+    display: none;
+  }
+}
+/* ====================================== */
+.GalleryCards .custom-class-name{
+  -webkit-box-shadow: 1px 0px 10px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 0px 10px -2px rgba(0,0,0,0.75);
+box-shadow: 1px 0px 10px -2px rgba(0,0,0,0.75);
+  /* box-shadow: 0px 0px 5px #4d4949; */
+  border-radius: 10px;
+}
+.GalleryCards a img{
+  object-fit: cover;
+}
+.GalleryCards a .img-fluid:hover{
+  transform: scale(0.99);
+}
+.img-fluid{
+  border-radius: 10px;
+  height: 170px;
+  width: 100%;
+  max-height: 100%;
+  pointer-events: all!important;
+}
+/* ====================================== */
+/* ++++++++++++++++++++++++++++++++++++++++++++ */
+/* Flipping Cards CSS */
+.flip-portfolio-card-front,
+.flip-portfolio-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-portfolio-card-front {
+  background-color: #c89666;
+  color: #12343b;
+  padding: 10px;
+}
+.flip-portfolio-card-front .frontHeading{
+  color: #2d545e;
+}
+
+.flip-portfolio-card-front img,
+.flip-portfolio-card-back img {
+  object-fit: cover;
+  width: 380px !important;
+  height: 160px;
+  object-fit: cover;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+
+.flip-portfolio-card-back {
+  background-color: #2d545e;
+  transform: rotateY(180deg);
+  padding: 10px;
+}
+
+.flip-portfolio-card-back a {
+  background-color: #c89666;
+  color: #12343b;
+  border: none;
+}
+
+.flip-portfolio-card-back a:hover {
+  background-color: #12343b;
+  color: #c89666;
+  border: none;
+}
+
+.flip-portfolio-card-back h1 {
+  color: #e2a66c;
 }

@@ -14,105 +14,66 @@ const Faq = () => {
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-                                        Item #1
+                                    <h6>What Is Digital Marketing, and How Can It Benefit My Business?</h6>
                                     </button>
                                 </h2>
                                 <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div className="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse laborum nesciunt doloribus quibusdam dolores cumque reiciendis aliquam architecto neque natus omnis velit, veritatis nemo perferendis inventore minus dolorem expedita suscipit qui quidem? Sequi omnis provident quia? Quas atque expedita minima!</div>
+                                    <div className="accordion-body">Digital Marketing Solutions involve promoting products or services using digital channels like social media, search engines, email, and other online platforms. The benefits of digital marketing include increased visibility, better targeting of potential customers, and higher ROI than traditional marketing methods.</div>
                                 </div>
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="true" aria-controls="flush-collapseTwo">
-                                        Item #2
+                                    <h6>What Is SEO, and Why Is It Essential For My Website's Ranking In Search Engines?</h6>
                                     </button>
                                 </h2>
                                 <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores molestias sequi dolore quaerat sed, nesciunt optio aliquid. Tempora pariatur veritatis ullam est aperiam, cum voluptate, rerum ratione quos omnis obcaecati aspernatur similique ut quia vero exercitationem. Numquam voluptate natus illum!</div>
+                                    <div className="accordion-body">SEO, or search engine optimization, improves a website's visibility and ranking in search engine results pages. It's important because the higher your website ranks, the more likely users are to click on it and become customers.</div>
+                                    <div className="accordion-body">Web Development is the process of creating and maintaining a website. It's important because a well-designed website can help attract and retain customers, improve search engine visibility, and provide a positive user experience.</div>
                                 </div>
                             </div>
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="true" aria-controls="flush-collapseThree">
-                                        Item #3
+                                        <h6>What Is PPC Advertising, and How Can It Help My Business Generate Leads and Sales?</h6>
                                     </button>
                                 </h2>
                                 <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum molestias deleniti cupiditate molestiae possimus sequi ea, vero ducimus saepe temporibus asperiores earum? Temporibus quod ipsa architecto? Sunt, praesentium incidunt.</div>
+                                    <div className="accordion-body">PPC, or pay-per-click, advertising, involves placing ads on search engines and other websites and paying a fee every time a user clicks on the ad. PPC advertising can generate leads and sales by targeting potential customers based on their search terms and interests.</div>
                                 </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="true" aria-controls="flush-collapseFour">
-                                        Item #4
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum molestias deleniti cupiditate molestiae possimus sequi ea, vero ducimus saepe temporibus asperiores earum? Temporibus quod ipsa architecto? Sunt, praesentium incidunt.</div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="true" aria-controls="flush-collapseFive">
-                                        Item #5
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatum molestias deleniti cupiditate molestiae possimus sequi ea, vero ducimus saepe temporibus asperiores earum? Temporibus quod ipsa architecto? Sunt, praesentium incidunt.</div>
-                                </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                     <div className="col-md-6">
                         <div className="accordion accordion-flush" id="accordionFlushSecondExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="true" aria-controls="flush-collapseFour">
+                                        
+                                        <h6>What Is Web Development, and Why Is It Important For My Business Website?</h6>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
+                                <div className="accordion-body">Web Development is the process of creating and maintaining a website. It's important because a well-designed website can help attract and retain customers, improve search engine visibility, and provide a positive user experience.</div>                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="true" aria-controls="flush-collapseFive">
+                                        <h6>What Are Social Media Marketing and Management Services, and How Can They Benefit My Business?</h6>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
+                                    <div className="accordion-body">Social media marketing and management services involve creating and managing social media accounts to promote your business and engage with customers. Benefits include increased brand awareness, customer engagement, and potential sales.</div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="true" aria-controls="flush-collapseSix">
-                                        Item #6
+                                        <h6>How Can Website Analytics and Reporting Help Me Improve My Digital Marketing Efforts?</h6>
                                     </button>
                                 </h2>
                                 <div id="flush-collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
-                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas architecto consequuntur ullam sequi! Nobis doloribus voluptatem numquam officiis, atque eius velit, ducimus sint debitis, saepe veritatis libero? Sit voluptatem ipsa quis omnis aliquam vel dicta quo iste, exercitationem incidunt!</div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="true" aria-controls="flush-collapseSeven">
-                                        Item #7
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
-                                    <div className="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eos iste dolor laboriosam eius optio tempora voluptas voluptates assumenda hic reprehenderit sunt fuga nulla ad quos esse quibusdam velit recusandae provident saepe ab. Minus, voluptate aut! Veritatis tenetur nulla dolores.</div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="true" aria-controls="flush-collapseEight">
-                                        Item #8
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseEight" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
-                                    <div className="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis debitis quis impedit error unde consequatur reprehenderit libero repudiandae, deleniti dolorem! Quasi maiores quo tempore culpa tenetur harum, aliquam, facere, iste at praesentium exercitationem atque odit? Quia ad reiciendis voluptas assumenda.</div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="true" aria-controls="flush-collapseNine">
-                                        Item #9
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseNine" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
-                                    <div className="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis debitis quis impedit error unde consequatur reprehenderit libero repudiandae, deleniti dolorem! Quasi maiores quo tempore culpa tenetur harum, aliquam, facere, iste at praesentium exercitationem atque odit? Quia ad reiciendis voluptas assumenda.</div>
-                                </div>
-                            </div>
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="true" aria-controls="flush-collapseTen">
-                                        Item #10
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTen" className="accordion-collapse collapse" data-bs-parent="#accordionFlushSecondExample">
-                                    <div className="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis debitis quis impedit error unde consequatur reprehenderit libero repudiandae, deleniti dolorem! Quasi maiores quo tempore culpa tenetur harum, aliquam, facere, iste at praesentium exercitationem atque odit? Quia ad reiciendis voluptas assumenda.</div>
+                                    <div className="accordion-body">Website analytics and reporting tools provide insights into website traffic, user behavior, and conversion rates. These insights can be used to optimize digital marketing efforts by identifying areas for improvement, tracking ROI, and making data-driven decisions.</div>
                                 </div>
                             </div>
                         </div>

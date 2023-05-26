@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Home.css";
-import { awrapper, online, portfolio } from "../../../dummydata";
+import { awrapper, homePortfolio, online, portfolio } from "../../../dummydata";
 import Services from "./Process";
 import Faq from "./Faq";
 import CountUp from 'react-countup';
@@ -33,11 +33,10 @@ const Home = () => {
         <div className="hero">
           <div className="container">
             <div className="text-area">
-              <h1 className="main-heading">WELCOME TO KODEGURUS</h1>
-              <h3 className="sub-heading">
-                We Build, We Create Digital Products
-                <br /> That Makes Sense
-              </h3>
+              <h1 className="main-heading">Digital Marketing Company That Build,<br /> Promote Digital Products</h1>
+              <h5 className="sub-heading">
+                In the age of digital transformation, we help thousands<br /> of growing businesses to achieve their goals & success.
+              </h5>
               <div className="buttons d-flex">
                 {/* <button className="primary-btn btn-primary firstbtn">
                 GET STARTED <i className="fa fa-long-arrow-alt-right"></i>
@@ -57,30 +56,28 @@ const Home = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left">
-                <img src="./images/about.webp" alt="" />
+                <img src="./images/heroImage.png" alt="" />
               </div>
             </div>
             <div className="col-md-7">
               <div className="right">
                 <div id="heading">
-                  <h3>India’s Top-notch ReactJS Development Services</h3>
+                  <h2>KodeGurus: The Best Digital Marketing Company In India</h2>
                 </div>
                 <div className="items">
                   <p>
-                    Cybrain Software Solutions is the most valued ReactJS
-                    development company in India. We rely on fine craftsmanship
-                    and integrity to provide flawless services to build web and
-                    mobile applications that can elevate your business in the
-                    competitive market effectively and efficiently. React JS is
-                    of prime importance in the present technology that has
-                    invaded the world of web pages. We have worked for some of
-                    the industry experts in developing and producing some of the
-                    profound React JS software solutions. <br />
-                    <br /> If you are looking for a React JS development company
-                    in India, Cybrain is the right choice. We have developed a
-                    secure, fast, responsive, and scalable application. Our team
-                    has experience building web and desktop applications using
-                    React.
+                    At KodeGurus, we believe in transforming businesses to their most tremendous potential. Our clients come to us with their unique approach toward their business, and we help create that for them. <br /> 
+
+                    We offer Web Development Services and Digital Marketing Services solutions to build the future. We are a leading and result-oriented Digital Marketing Company in India.  <br /><br /> 
+
+                    {/* We are passionate about helping clients achieve their goals through creative and innovative digital marketing strategies. We understand it takes more than just a catchy slogan or a pretty website in today's ever-changing digital landscape to stand out.  <br /><br /> */}
+
+                    That's why our team of Digital Marketing Experts combines the latest industry trends with cutting-edge technology to create customized solutions that meet each client's unique needs. From SEO and social media to email marketing and PPC advertising, we use various tools and techniques to help our clients increase brand awareness, drive website traffic, and ultimately grow their businesses. <br /> 
+
+                    But we don't just stop there - at KodeGurus, we believe in building long-term relationships with our clients. That's why we take the time to get to know your business and understand your goals, so we can develop strategies to help you succeed not just today but for years to come. <br /> <br />
+
+                    {/* So if you're ready to take your digital marketing to the next level, look no further than KodeGurus - India's best digital marketing company! <br /> <br />
+ */}
                   </p>
                 </div>
               </div>
@@ -311,18 +308,18 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
 
-      
+
+
       {/* Portfolio Section */}
       <section className="portfolioSection">
         <div className="container">
           <div id="heading">
-          <h2 className="text-center">Our Portfolio</h2>
+            <h2 className="text-center">Our Portfolio</h2>
           </div>
           <div className="row">
             {
-              portfolio.map((value, key) => {
+              homePortfolio.map((value, key) => {
                 return (
                   <div key={key} className="col-md-6 p-2">
                     <div className="card portfolio">

@@ -137,6 +137,9 @@ header li a {
   background-color:white; */
   background-color: #2d545e;
 }
+.hireBtn{
+  margin-top: 7px;
+}
 /*--------header------------*/
 @media only screen and (max-width: 958px) {
   .nav-item .nav-link .menuIcon {
