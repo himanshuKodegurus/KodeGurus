@@ -75,28 +75,33 @@ const Portfolio = () => {
                         </div>
                         <div>
                             <div className="row">
-                                {online.slice(0, 6).map((val, key) => (
-                                    <div
-                                        key={key}
-                                        className="flip-card col-md-4 col-sm-6 p-2 col-xs-12"
-                                    >
-                                        <div className="flip-card-inner portfolioFlipCards">
-                                            <div className="flip-card-front">
-                                                <img
-                                                    className="img-responsive"
-                                                    src={val.cover}
-                                                    alt="Avatar"
-                                                />
-                                                <h3 className="frontHeading">{val.courseName}</h3>
-                                            </div>
-                                            <div className="flip-card-back">
-                                                <img
-                                                    className="img-responsive"
-                                                    src={val.hoverCover}
-                                                    alt=""
-                                                />
-                                                <h3>{val.courseName}</h3>
-                                                {/* <a href={`/service#service${key + 1}`} className='btn btn-info'>Know More</a> */}
+                            {portfolio.slice(0, 6).map((val, key) => (
+                                    <div key={key} className="GalleryCards col-md-4 col-sm-6 p-2 col-xs-12">
+                                        <div className="card">
+                                            <div className="card-img-top">
+                                                <LightGallery
+                                                    speed={500}
+                                                    download={false}
+                                                    plugins={[lgThumbnail, lgZoom, lgAutoPlay]}
+                                                    elementClassNames="custom-class-name"
+                                                    licenseKey="hih"
+                                                //  onInit={onInit}
+                                                >
+                                                    <div data-src={val.cover} ref={galleryRef} >
+                                                        <a key={val.id} data-lg-size={val.size}
+                                                            className="gallery-item"
+                                                            data-src={val.cover}>
+                                                            <img // style={{ maxWidth: "280px" }}
+                                                                className="img-fluid"
+                                                                src={val.cover}
+                                                                alt={val.courseName}
+                                                            />
+                                                        </a>
+                                                    </div>
+                                                </LightGallery>
+                                                <div className="card-body">
+                                                    <Link target="_blank" to={`${val.url}`} className="btn btn-secondary">Live Preview</Link>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
