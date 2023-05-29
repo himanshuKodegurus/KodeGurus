@@ -44,7 +44,7 @@ const Testimonial = () => {
                                         <div className="card-header avatarContainer d-flex">
                                             <div className="avatar-img">
                                                 <img src={value.cover} alt="Avatar Img"
-                                                    className="testimonialImg" />
+                                                    className="testimonialImg"/>
                                                 <i className="fa fa-quote-left quoteIcon"></i>
                                             </div>
                                             <div className="name">

@@ -246,7 +246,7 @@ p {
 
 .testimonialCard:hover span,
 .testimonialCard:hover .name h2,
-.testimonialCard:hover p {
+.testimonialCard:hover .card-body p {
   color: #e1b382;
 }
 .testimonialCard:hover i {
