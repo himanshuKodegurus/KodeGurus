@@ -131,7 +131,7 @@
 /* About CSS */
 
 .aboutHome {
-  margin: 70px 0;
+  margin: 100px 0;
 }
 
 .right #heading {
@@ -358,6 +358,7 @@
 
 .online {
   text-align: center;
+  margin: 100px 0;
 }
 
 .online .box {
@@ -526,7 +527,7 @@
 
 /* Portfolio Page CSS */
 .portfolioSection {
-  margin: 70px 0;
+  margin: 100px 0;
 }
 
 .portfolio {

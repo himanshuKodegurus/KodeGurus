@@ -5,9 +5,10 @@ import { process } from "../../../dummydata";
 const Process = () => {
     return (
         <>
+            <section className="processContainer">
             <div className="container-fluid">
                 <div id="heading">
-                <h4 className="text-center mt-5">Working Process</h4>
+                <h4 className="text-center">Working Process</h4>
                 <h2 className="text-center mb-5">How We Work For Our Customers</h2>
 
                 </div>
@@ -35,6 +36,7 @@ const Process = () => {
                     })}
                 </div>
             </div>
+            </section>
         </>
     )
 }

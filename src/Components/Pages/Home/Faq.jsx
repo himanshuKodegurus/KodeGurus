@@ -4,7 +4,8 @@ import './faq.css';
 const Faq = () => {
     return (
         <>
-            <div className="container faq">
+            <section className='faq'>
+            <div className="container ">
                 <div id="heading">
                 <h2 className='text-center'>Frequently Asked Questions </h2>
                 </div>
@@ -80,6 +81,7 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
+            </section>
         </>
     )
 }

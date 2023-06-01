@@ -61,9 +61,9 @@ const Service = () => {
                 <div className="container my-5" id="service">
                     {/* <h1 className="my-4 text-center" id="service">Services</h1> */}
                     <div className="row">
-                        <div className="col-12 text-center" >
-                            <h4 className='my-3 serviceHeading'>{selectedCard?.heading}</h4>
-                            <p className='my-2'>{selectedCard?.paragraph}</p>
+                        <div className="col-12 " >
+                            <h2 className='my-3 text-center serviceHeading'>{selectedCard?.heading}</h2>
+                            <p className='my-3' dangerouslySetInnerHTML={{ __html: selectedCard?.paragraph }}></p>
                         </div>
                     </div>
                 </div>

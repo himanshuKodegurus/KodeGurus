@@ -21,6 +21,9 @@
 .serviceText{
     color:#2d545e;
 }
+#service p{
+    font-size: 18px;
+}
 .serviceHeading,.entry-meta{
     color:#12343b;
 }
@@ -39,4 +42,4 @@
 .read-or-hide{
     color: blue;
     cursor: pointer;
-  }
+}

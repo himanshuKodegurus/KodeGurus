@@ -65,7 +65,7 @@ const Contact = () => {
                                             <input type="phone" className="form-control" id="exampleInputName1" onChange={(e) => setPhone(e.target.value)} aria-describedby="lastNameHelp" placeholder="Enter Phone No." />
                                         </div>
                                         <div className="form-group form-group col-md-12 my-3">
-                                            <textarea name="message" id="" cols="30" rows="5" className='form-control'></textarea>
+                                            <textarea name="message" id="" cols="30" rows="8" className='form-control'></textarea>
                                         </div>
                                     </div>
                                     <button type="submit" className="btn contactBtn">Send Message</button>

@@ -24,7 +24,10 @@ const responsive = {
 const Testimonial = () => {
     return (
         <>
-            <section className="testimonial">
+            <section className="testimonial" >
+                <div id="heading">
+                    <h1 className="my-3">Testimonials</h1>
+                </div>
                 <div className="container">
                     <Carousel
                         responsive={responsive} additionalTransfrom={0}
@@ -35,8 +38,7 @@ const Testimonial = () => {
                         pauseOnHover
                         renderArrowsWhenDisabled={false}
                         renderButtonGroupOutside={false}
-                        renderDotsOutside={false}
-                    >
+                        renderDotsOutside={false} >
                         {testimonal.map((value, key) => {
                             return (
                                 <div className="testimonialContainer mx-2" key={key}>
@@ -44,7 +46,7 @@ const Testimonial = () => {
                                         <div className="card-header avatarContainer d-flex">
                                             <div className="avatar-img">
                                                 <img src={value.cover} alt="Avatar Img"
-                                                    className="testimonialImg"/>
+                                                    className="testimonialImg" />
                                                 <i className="fa fa-quote-left quoteIcon"></i>
                                             </div>
                                             <div className="name">

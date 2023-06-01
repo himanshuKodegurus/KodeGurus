@@ -40,7 +40,9 @@
   top: 0;
   display: block;
 }
-
+.processContainer{
+  margin: 100px 0;
+}
 .processSection {
   justify-content: center;
   padding: 0px;
