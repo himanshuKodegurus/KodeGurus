@@ -5,20 +5,23 @@ import { online } from "../../../dummydata";
 
 const Service = () => {
     const [selectedCard, setSelectedCard] = useState(null);
-
+    const id = window.location.hash.substr(1);
+    // console.log(id);
     const handleCardClick = (heading, paragraph) => {
         setSelectedCard({ heading, paragraph });
-    };
-    const id = window.location.hash.substr(1);
 
-    useEffect(() => {
-        // console.log(id);
         const onlineCourse = online.find(course => course.id === id);
         if (onlineCourse) {
             setSelectedCard({ heading: onlineCourse.courseName, paragraph: onlineCourse.paragraph });
         }
         const targetElement = document.getElementById("service");
         targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    const scrollView = () =>{
+        
+    }
+    useEffect(() => {
+
     }, [id]);
 
     return (
