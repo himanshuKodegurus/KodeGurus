@@ -57,9 +57,7 @@ const Header = () => {
             </div>
           </Link>
           <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
+            className="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarNav"
             aria-controls="navbarNav"
             aria-expanded="false"
@@ -76,8 +74,7 @@ const Header = () => {
               <li
                 className="nav-item active serviceMenu"
                 onClick={() => showSubMenus("1")} onMouseEnter={() => showSubMenus("1")}
-                 onMouseLeave={()=>showSubMenus(" ")}
-              >
+                 onMouseLeave={()=>showSubMenus(" ")} >
                 <Link className="nav-link" to="/service">
                   Services
                   <i className="menuIcon fa fa-angle-right" aria-hidden="true"

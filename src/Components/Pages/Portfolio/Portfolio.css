@@ -62,7 +62,7 @@
 
 /* hide prev/next button in mobile client */
 @media (max-width: 991.98px) {
-  .carousel-slider .arrow-left {
+  .carousel-sl  ider .arrow-left {
     display: none;
   }
 
