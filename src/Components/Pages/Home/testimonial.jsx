@@ -24,7 +24,7 @@ const responsive = {
 const Testimonial = () => {
     return (
         <>
-            <section className="testimonial" >
+            <section className="testimonial" style={{margin:"100px 0"}}>
                 <div id="heading">
                     <h1 className="my-3">Testimonials</h1>
                 </div>

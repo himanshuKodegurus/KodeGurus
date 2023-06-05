@@ -288,8 +288,8 @@ export const online = [
     cover: "./images/icon/development.png",
     size: '1400-933',
     hoverCover: "./images/icon/developmentHover.png",
-    courseName: "Web Developement",
-    paragraph:  `Welcome to KodeGurus, where we turn your website dreams into reality!
+    courseName: "Website Development ",
+    paragraph: `Welcome to KodeGurus, where we turn your website dreams into reality!
     <br/><br/>
     In today's digital age, a website is more than just a virtual storefront. It reflects your brand, is a platform to connect with customers, and is a powerful marketing tool that can take your business to new heights. At KodeGurus, we understand the importance of having a website that looks great and performs seamlessly.
     <br/><br/>
@@ -297,8 +297,43 @@ export const online = [
     <br/><br/>
     So, whether you're a small business looking to establish an online presence or a large enterprise needing a complex web solution, KodeGurus has got you covered. Trust us to deliver a website that is both creative and attractive, and watch your business thrive in the digital space. Get in touch with us today to start your website development journey!
     <br/><br/>
-    At KodeGurus, we offer top-notch web development services catering to our client's unique needs and goals. With our team of skilled and experienced developers, we strive to deliver exceptional digital solutions that elevate businesses and enhance their online presence.
+
+    <h2>With Web Development Services, Its Easy To Achieve Your Business Goals</h2>
+
+    At KodeGurus, we offer top-notch Website Development Services catering to our client's unique needs and goals. With our team of skilled and experienced developers, we strive to deliver exceptional digital solutions that elevate businesses and enhance their online presence.
     <br/><br/>
+    Here are some of the services our Digital Marketing Company can deliver:
+    <br/><br/>
+
+    <h4>Websites</h4>
+    With a well-designed and user-attractive website, it is now easy to share your business amongst many people and generate maximum ROI.
+    <br/><br/>
+
+    <h4>E-Commerce</h4>
+    Have an E-Commerce business idea? With Kodegurus, you can design an E-Commerce website that you can operate 24 hours a day, 7 days a week.
+    <br/><br/>
+
+    <h4>Web Applications</h4>
+    Reach out to a maximum number of audiences with the help of web applications that are user-friendly and engaging.
+    <br/><br/>
+
+    <h4>Content Management</h4>
+    CMS can fulfill the specific needs of your business and save you time and money by optimizing internal workflows.
+    <br/><br/>
+
+    <h3>Stand-Out From the Crowd With the Best Web Design Company</h3>
+    At Kodegurus, we provide Web Design And Development solutions that suit your business. Here is what we provide:
+    <br/><br/>
+
+    <ul>
+      <li>Website Development </li>
+      <li> Web Application Development </li>
+      <li> eCommerce Solutions Development </li>
+      <li> Dedicated Content Management System Development </li>
+      <li> Project Management - UI Design - UX Design - Coding - QA Testing </li>
+      <li> Cybersecurity - Consulting - Publishing - Maintenance - Support </li>
+    </ul>
+    With the right and experienced Web Development Company like Kodegurus, you can make your business journey more fruitful with positive responses.
     `
   },
   {
@@ -361,7 +396,8 @@ export const online = [
     size: '1400-933',
     hoverCover: "./images/icon/digitalMarketingHover.png",
     courseName: "Digital Marketing",
-    paragraph: `Looking to elevate your online presence and attract more customers to your business? Look no further than KodeGurus, where we specialize in providing top-notch Digital Marketing Services that are both creative and effective.
+    paragraph: `Looking to boost your online existence and attract more customers to your business? Look no further than KodeGurus, where we specialize in providing top-notch Digital Marketing Services that are both creative and effective.
+
     <br/><br/>
     Our team of expert marketers deeply understands the latest trends and techniques in digital marketing, such as:
     <br/><br/>
@@ -373,10 +409,53 @@ export const online = [
     <li>Google Ads</li>
     <li>Content Marketing</li>
   </ul>
+  
+  
+  Whether you want to increase website traffic, generate more leads, or boost sales and revenue, KodeGurus, the Digital Marketing Company has the tools and expertise to help you achieve your objectives. So why wait? Contact us today to learn more about our digital marketing services and start taking your online presence to the next level!
+  <br/><br/>
+  <h2 >How Digital Marketing Services Will Be Beneficial For Your Business? </h2>
   <br/>
+  Digital Marketing Services are one of the most accurate ways of increasing the online presence of any business and ranking high on search results.
+  <br/><br/>
+  The online business marketing competition is increasing every second. Hence, using the same old tactics is insufficient to win the race. If you want your business to be on the top, you must take the help of Digital Marketing Experts.
   
-  
-  Whether you want to increase website traffic, generate more leads, or boost sales and revenue, KodeGurus, the Digital Marketing Company has the tools and expertise to help you achieve your objectives. So why wait? Contact us today to learn more about our digital marketing services and start taking your online presence to the next level!`
+  <br/><br/>
+  Digital Marketing can help you in several ways:
+  <ul>
+    <li>Save your money, time, and resources</li>
+    <li>Online reputation management</li>
+    <li>Obtain massive Return On Investment</li>
+    <li>Maximize diverse client touchpoints</li>
+    <li>Track campaign results with ease</li>
+    <li>Promote consumer engagement</li>
+    <li>Adjust approaches based on data and analytics</li>
+    <li>Profitable long-term growth</li>
+    <li>Quality audience target</li>
+    <li>Maximum conversion rates</li>
+  </ul>
+  No need to waste your money and time on marketing techniques that are unable to deliver fruitful results. With Kodegurus, the Best Digital Marketing Company, you can grow your business and generate maximum ROI using our unique marketing tactics.
+  <br/><br/>
+  <h3 className="my-4">Why Kodegurus Digital Marketing Company?</h3>
+  <br/>
+    We are an experienced Digital Marketing Company with a team of skilled and experienced Digital Marketing Experts. We help businesses increase their client retention rate and maximize their conversion growth.
+    <br/><br/>
+    If you have wasted time and money on other marketing experts, here is one genuine Digital Marketing Agency available for your service.
+    <br/><br/>
+    Choose Kodegurus as your Digital Marketing Partner and gain the following advantages:
+    <br/><br/>
+    <ul>
+    <li>Data-driven Digital Marketing Services</li>
+    <li>Industry Professionals
+    </li>
+    <li>Obtain massive Return On Investment</li>
+    <li>Custom Digital Marketing Framework
+    </li>
+    <li>Monitoring and Evaluating Campaigns
+    </li>
+    <li>Economic Price Range
+    </li>
+</ul>
+  ` 
 
   },
   {

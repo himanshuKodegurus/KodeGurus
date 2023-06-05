@@ -12,7 +12,7 @@
   margin: 0 0 70px 0; */
 }
 .mt-200{
-  margin-top: 300px;
+  margin-top: 40vh;
 }
 .mt-150{
   margin-top: 120px;
@@ -242,7 +242,7 @@
   width: 100px;
   height: 100px;
 }
-.awrapper .text h1,h3 {
+.awrapper .text h1 {
   color: #c89666;
 }
 /*----------awrapper------------*/

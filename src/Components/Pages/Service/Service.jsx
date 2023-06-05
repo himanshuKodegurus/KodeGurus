@@ -6,27 +6,28 @@ import { online } from "../../../dummydata";
 const Service = () => {
     const [selectedCard, setSelectedCard] = useState(null);
     const id = window.location.hash.substr(1);
+    const targetElement = document.getElementById("servicesec");
     // console.log(id);
     const handleCardClick = (heading, paragraph) => {
         setSelectedCard({ heading, paragraph });
 
-        const onlineCourse = online.find(course => course.id === id);
-        if (onlineCourse) {
-            setSelectedCard({ heading: onlineCourse.courseName, paragraph: onlineCourse.paragraph });
-        }
-        const targetElement = document.getElementById("service");
-        targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+        
     };
     const scrollView = () =>{
         
     }
     useEffect(() => {
-
-    }, [id]);
+        //For content Change
+        const onlineCourse = online.find(course => course.id === id);
+        if (onlineCourse) {
+            setSelectedCard({ heading: onlineCourse.courseName, paragraph: onlineCourse.paragraph });
+        }
+        targetElement?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, [id,targetElement]);
 
     return (
         <>
-            <section>
+            <section id="service">
                 <div className="serviceBanner"></div>
                 {/* Online Services  */}
                 <section className="online">
@@ -40,7 +41,7 @@ const Service = () => {
                                 <div
                                     key={key}
                                     className="flip-card col-md-4 col-sm-6 p-2 col-xs-12">
-                                    <Link to={`/service#service${key + 1}`} onClick={() => handleCardClick(val.courseName, val.paragraph)}>
+                                    <Link to={`#servicesec/${key + 1}`} onClick={() => handleCardClick(val.courseName, val.paragraph)}>
                                         <div className="flip-card-inner">
                                             <div className="flip-card-front">
                                                 <img src={val.cover} alt="Avatar" />
@@ -61,7 +62,7 @@ const Service = () => {
                         </div>
                     </div>
                 </section>
-                <div className="container my-5" id="service">
+                <div className="container my-5" id="servicesec">
                     {/* <h1 className="my-4 text-center" id="service">Services</h1> */}
                     <div className="row">
                         <div className="col-12 " >
