@@ -24,7 +24,10 @@ const responsive = {
 const Testimonial = () => {
     return (
         <>
-            <section className="testimonial">
+            <section className="testimonial" style={{margin:"100px 0"}}>
+                <div id="heading">
+                    <h1 className="my-3">Testimonials</h1>
+                </div>
                 <div className="container">
                     <Carousel
                         responsive={responsive} additionalTransfrom={0}
@@ -35,8 +38,7 @@ const Testimonial = () => {
                         pauseOnHover
                         renderArrowsWhenDisabled={false}
                         renderButtonGroupOutside={false}
-                        renderDotsOutside={false}
-                    >
+                        renderDotsOutside={false} >
                         {testimonal.map((value, key) => {
                             return (
                                 <div className="testimonialContainer mx-2" key={key}>

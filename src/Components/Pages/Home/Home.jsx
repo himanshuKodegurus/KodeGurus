@@ -31,26 +31,41 @@ const Home = () => {
     <>
       {/* Hero */}
       <section className="banner">
-        <div className="hero">
+        {/* <div className="hero"> */}
+          {/* <video autoPlay muted loop id="myVideo" style={{width:"100%"}}> */}
+          {/* <source src="./video/rain.mp4" type="video/mp4" /> */}
+          {/* </video> */}
           <div className="container">
-            <div className="text-area">
-              <h1 className="main-heading">Digital Marketing Company That Build,<br /> Promote Digital Products</h1>
-              <h5 className="sub-heading">
-                In the age of digital transformation, we help thousands<br /> of growing businesses to achieve their goals & success.
-              </h5>
-              <div className="buttons d-flex">
-                {/* <button className="primary-btn btn-primary firstbtn">
+            <div className="row">
+            <div className="col-md-6">
+              <div className="text-area mt-200">
+                <h1 className="main-heading">Digital Marketing Company That Build,<br /> Promote Digital Products</h1>
+                <h5 className="sub-heading">
+                  In the age of digital transformation, we help thousands<br /> of growing businesses to achieve their goals & success.
+                </h5>
+                <div className="buttons d-flex">
+                  {/* <button className="primary-btn btn-primary firstbtn">
                 GET STARTED <i className="fa fa-long-arrow-alt-right"></i>
               </button> */}
-                <button className="bannerbtn btn">
-                  HIRE DEVELOPER <i className="fa fa-long-arrow-alt-right"></i>
-                </button>
+                  <button className="bannerbtn btn">
+                    HIRE DEVELOPER <i className="fa fa-long-arrow-alt-right"></i>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
+            <div className="col-md-6">
+              <div className="mainBannerimg mt-150">
+
+              <img src="./images/webBanner.png" alt="" srcSet=""  />
+              </div>
+            </div>
+            </div>
+            
+
+          {/* </div> */}
         </div>
       </section>
-
+      {/* <hr style={{opacity: 0.40}}/> */}
       {/* About Card */}
       <section className="aboutHome">
         <div className="container">
@@ -67,13 +82,13 @@ const Home = () => {
                 </div>
                 <div className="items">
                   <p>
-                    At KodeGurus, we believe in transforming businesses to their most tremendous potential. Our clients come to us with their unique approach toward their business, and we help create that for them. <br /> 
+                    At KodeGurus, we believe in transforming businesses to their most tremendous potential. Our clients come to us with their unique approach toward their business, and we help create that for them. <br />
 
-                    We offer Web Development Services and Digital Marketing Services solutions to build the future. We are a leading and result-oriented Digital Marketing Company in India.  <br /><br /> 
+                    We offer Web Development Services and Digital Marketing Services solutions to build the future. We are a leading and result-oriented Digital Marketing Company in India.  <br /><br />
 
                     {/* We are passionate about helping clients achieve their goals through creative and innovative digital marketing strategies. We understand it takes more than just a catchy slogan or a pretty website in today's ever-changing digital landscape to stand out.  <br /><br /> */}
 
-                    That's why our team of Digital Marketing Experts combines the latest industry trends with cutting-edge technology to create customized solutions that meet each client's unique needs. From SEO and social media to email marketing and PPC advertising, we use various tools and techniques to help our clients increase brand awareness, drive website traffic, and ultimately grow their businesses. <br /> 
+                    That's why our team of Digital Marketing Experts combines the latest industry trends with cutting-edge technology to create customized solutions that meet each client's unique needs. From SEO and social media to email marketing and PPC advertising, we use various tools and techniques to help our clients increase brand awareness, drive website traffic, and ultimately grow their businesses. <br />
 
                     But we don't just stop there - at KodeGurus, we believe in building long-term relationships with our clients. That's why we take the time to get to know your business and understand your goals, so we can develop strategies to help you succeed not just today but for years to come. <br /> <br />
 
@@ -140,8 +155,8 @@ const Home = () => {
 
       <Process />
 
-      {/* Testimonial */}      
-      <Testimonial/>
+      {/* Testimonial */}
+      <Testimonial />
 
 
 

@@ -113,6 +113,9 @@ header li a {
 .service_menu ul {
   padding: 0;
 }
+.service_menu ul li{
+  list-style: none;
+}
 .serviceMenu:hover .service_menu {
   display: block;
   transition: all 0.5s;

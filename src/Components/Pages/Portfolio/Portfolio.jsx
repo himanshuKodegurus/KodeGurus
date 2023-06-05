@@ -84,7 +84,7 @@ const Portfolio = () => {
                                                     download={false}
                                                     plugins={[lgThumbnail, lgZoom, lgAutoPlay]}
                                                     elementClassNames="custom-class-name"
-                                                    licenseKey="hih"
+                                                    licenseKey="Valid"
                                                 //  onInit={onInit}
                                                 >
                                                     <div data-src={val.cover} ref={galleryRef} >
@@ -92,7 +92,7 @@ const Portfolio = () => {
                                                             className="gallery-item"
                                                             data-src={val.cover}>
                                                             <img // style={{ maxWidth: "280px" }}
-                                                                className="img-fluid"
+                                                                className="portImages"
                                                                 src={val.cover}
                                                                 alt={val.courseName}
                                                             />
