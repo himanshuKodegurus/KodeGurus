@@ -2,9 +2,11 @@ import React from 'react'
 import './about.css'
 import CountUp from 'react-countup';
 import { awrapper, online } from '../../../dummydata';
+import MetaData from '../../Common/MetaData/MetaData';
 const About = () => {
   return (
     <>
+    <MetaData title={"About us"}/>
       <div className="aboutBanner"></div>
       <section>
         <div className="container">
@@ -25,56 +27,56 @@ const About = () => {
           </div>
         </div>
       </section>
-                  {/* Awrapper */}
-                  <section className="awrapper">
-              <div className="container">
-                <div className="row">
-                  {awrapper.map((val, key) => {
-                    return (
-                      <div key={key} className="col-3 box">
-                        <div className="icon_img">
-                          <img src={val.cover} alt="images" />
-                        </div>
-                        <div className="text">
-                          <h1><CountUp duration={2.5} start={1} end={val.data} enableScrollSpy={true} scrollSpyOnce={true}>
-                            {({ countUpRef }) => <span ref={countUpRef} />}</CountUp></h1>
-                          <h3>{val.title}</h3>
-                        </div>
-                      </div>
-                    );
-                  })}
+      {/* Awrapper */}
+      <section className="awrapper">
+        <div className="container">
+          <div className="row">
+            {awrapper.map((val, key) => {
+              return (
+                <div key={key} className="col-3 box">
+                  <div className="icon_img">
+                    <img src={val.cover} alt="images" />
+                  </div>
+                  <div className="text">
+                    <h1><CountUp duration={2.5} start={1} end={val.data} enableScrollSpy={true} scrollSpyOnce={true}>
+                      {({ countUpRef }) => <span ref={countUpRef} />}</CountUp></h1>
+                    <h3>{val.title}</h3>
+                  </div>
                 </div>
-              </div>
-            </section>
+              );
+            })}
+          </div>
+        </div>
+      </section>
 
-            {/* Online Seervices */}
-            <section className="online">
-              <div className="container">
-                <div id="heading">
-                  <h3>SERVICES</h3>
-                  <h1>Browse Our Online Services</h1>
-                </div>
-                <div className="row">
-                  {online.slice(0, 6).map((val, key) => (
-                    <div key={key} className="flip-card col-md-4 col-sm-6 p-2 col-xs-12">
-                      <a href={`/service#service${key + 1}`} >
-                        <div className="flip-card-inner">
-                          <div className="flip-card-front">
-                            <img src={val.cover} alt="Avatar" />
-                            <h1>{val.courseName}</h1>
-                          </div>
-                          <div className="flip-card-back">
-                            <img src={val.hoverCover} alt="" />
-                            <h1>{val.courseName}</h1>
-                            {/* <a href={`/service#service${key + 1}`} className='btn btn-info'>Know More</a> */}
-                          </div>
-                        </div>
-                      </a>
+      {/* Online Seervices */}
+      <section className="online">
+        <div className="container">
+          <div id="heading">
+            <h3>SERVICES</h3>
+            <h1>Browse Our Online Services</h1>
+          </div>
+          <div className="row">
+            {online.slice(0, 6).map((val, key) => (
+              <div key={key} className="flip-card col-md-4 col-sm-6 p-2 col-xs-12">
+                <a href={`/service#service${key + 1}`} >
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img src={val.cover} alt="Avatar" />
+                      <h1>{val.courseName}</h1>
                     </div>
-                  ))}
-                </div>
+                    <div className="flip-card-back">
+                      <img src={val.hoverCover} alt="" />
+                      <h1>{val.courseName}</h1>
+                      {/* <a href={`/service#service${key + 1}`} className='btn btn-info'>Know More</a> */}
+                    </div>
+                  </div>
+                </a>
               </div>
-            </section>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   )
 }

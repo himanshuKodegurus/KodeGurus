@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Service.css";
 import { Link, NavLink } from "react-router-dom";
 import { online } from "../../../dummydata";
+import MetaData from "../../Common/MetaData/MetaData";
 
 const Service = () => {
     const [selectedCard, setSelectedCard] = useState(null);
@@ -27,6 +28,7 @@ const Service = () => {
 
     return (
         <>
+            <MetaData title={"Service"}/>
             <section id="service">
                 <div className="serviceBanner"></div>
                 {/* Online Services  */}

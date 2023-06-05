@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import MetaData from '../../Common/MetaData/MetaData';
 
 const Contact = () => {
     const [fName, setfName] = useState('');
@@ -12,6 +13,7 @@ const Contact = () => {
     };
     return (
         <>
+            <MetaData title={"Contact"}/>
             <div className="contactUsPage"></div>
             <section id='heading'>
                 <div className="container" >
