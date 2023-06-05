@@ -7,6 +7,7 @@ import CountUp from 'react-countup';
 import CarouselContainer from "./Carousel";
 import Process from "./Process";
 import Testimonial from "./testimonial";
+import MetaData from "../../Common/MetaData/MetaData";
 
 const Home = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const Home = () => {
 
   return (
     <>
+        <MetaData title={"Home"}/>
       {/* Hero */}
       <section className="banner">
         {/* <div className="hero"> */}

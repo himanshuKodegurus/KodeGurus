@@ -12,6 +12,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { online, portfolio } from "../../../dummydata";
 import { Link } from "react-router-dom";
+import MetaData from "../../Common/MetaData/MetaData";
 
 const Portfolio = () => {
     const galleryRef = useRef(null);
@@ -22,6 +23,7 @@ const Portfolio = () => {
 
     return (
         <>
+            <MetaData title={"Portfolio"}/>
             <section>
                 <div className="container my-5">
                     <h2 className="text-center my-4">Portfolio</h2>
