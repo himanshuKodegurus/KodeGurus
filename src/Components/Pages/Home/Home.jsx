@@ -39,7 +39,7 @@ const Home = () => {
           {/* </video> */}
           <div className="container">
             <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className="text-area mt-200">
                 <h1 className="main-heading">Digital Marketing Company That Build,<br /> Promote Digital Products</h1>
                 <h5 className="sub-heading">
@@ -55,7 +55,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className="mainBannerimg mt-150">
 
               <img src="./images/webBanner.png" alt="" srcSet=""  />
@@ -72,12 +72,12 @@ const Home = () => {
       <section className="aboutHome">
         <div className="container">
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-lg-5">
               <div className="left">
                 <img src="./images/heroImage.png" alt="" />
               </div>
             </div>
-            <div className="col-md-7">
+            <div className="col-lg-7">
               <div className="right">
                 <div id="heading">
                   <h2>KodeGurus: The Best Digital Marketing Company In India</h2>
@@ -166,7 +166,7 @@ const Home = () => {
       <section className="portfolioSection">
         <div className="container">
           <div id="heading">
-            <h2 className="text-center">Our Portfolio</h2>
+            <h4 className="text-center">Our Portfolio</h4>
           </div>
           <div className="row">
             {

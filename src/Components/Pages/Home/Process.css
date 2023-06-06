@@ -10,6 +10,9 @@
   max-width: 82%;
   object-fit: cover;
 }
+.iconContainer .myDIV h5{
+  color: #12343b;
+}
 .hide h5{
   color: #e2a66c;
   transition:0.5s;
@@ -103,7 +106,7 @@
     border-radius: 50%;
     background-color: #12343b;
     color: #e1b382;
-    left: 50%;
+    left: 46%;
     top: 93%;
     position: absolute;
   }
