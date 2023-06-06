@@ -166,7 +166,7 @@ const Home = () => {
       <section className="portfolioSection">
         <div className="container">
           <div id="heading">
-            <h2 className="text-center">Our Portfolio</h2>
+            <h4 className="text-center">Our Portfolio</h4>
           </div>
           <div className="row">
             {
