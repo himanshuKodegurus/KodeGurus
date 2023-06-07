@@ -57,6 +57,9 @@ body {
 h2,h3,h4 {
   color: #12343b;
 }
+h1{
+  color: #12343b;
+}
 
 #heading h3 {
   font-weight: 500;
