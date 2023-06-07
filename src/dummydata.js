@@ -191,32 +191,32 @@ export const online = [
 
     <h2 className="my-2">Why Choose Kodegurus for UI/UX Design Services?</h2>
 
-    <br/><br/>
+    <br/>
     <h4 className="my-2">Tailored Solutions for Your Brand</h4>
     Every brand has its unique identity and requirements. Our designers take the time to understand your business goals, target audience, and market niche, allowing us to create customized UI/UX designs that perfectly align with your brand's vision and objectives.
 
     <br/><br/>
     <h4 className="my-2">User-Centric Approach</h4>
     User satisfaction lies at the heart of our design philosophy. We conduct in-depth user research and analysis to gain valuable insights into your users' preferences, behaviors, and pain points. 
-    <br/><br/>
+    <br/>
     Integrating this knowledge into our design process creates intuitive, user-friendly interfaces and enhances the user experience.    
 
     <br/><br/>
     <h4 className="my-2">Visually Stunning Designs</h4>
     Our team of skilled designers possesses a keen eye for aesthetics. We combine cutting-edge design principles, industry best practices, and the latest design trends to create visually stunning interfaces that leave a lasting impact.
-    <br/><br/>
+    <br/>
     By seamlessly blending form and function, we ensure your digital platforms look great and provide a delightful user experience.
 
     <br/><br/>
     <h4 className="my-2">Seamless Interaction and Navigation:</h4>
     We understand the importance of smooth navigation and interaction in keeping users engaged. Our designers craft seamless user journeys and intuitive navigation structures that allow your users to explore and interact with your digital products or services effortlessly.
-    <br/><br/>
+    <br/>
     This enhances user satisfaction and encourages conversions, ultimately driving your business growth.
 
     <br/><br/>
     <h4 className="my-2"> Mobile-First and Responsive Designs</h4>
     Optimizing your digital platforms for a seamless mobile experience is imperative in today's mobile-dominated world. Our designers follow a mobile-first approach, creating responsive designs that adapt flawlessly to various devices and screen sizes.
-    <br/><br/>
+    <br/>
     By ensuring consistency across platforms, we guarantee that your brand message remains impactful, regardless of the user's chosen device.
 `
   },
@@ -248,7 +248,7 @@ export const online = [
       </li>
   </ul>
 
-    <br/><br/>
+    <br/>
     <h4 className="my-2">Efficient Sales and Lead Management:</h4>
     <ul>
     <li>Our CRM solutions empower your sales team with tools for efficient lead management, tracking, and follow-up.
@@ -260,7 +260,7 @@ export const online = [
       </li>
   </ul>
 
-    <br/><br/>
+    <br/>
     <h4 className="my-2">Integrated Marketing Campaigns</h4>
     <ul>
     <li>Our CRM development service seamlessly integrates with your marketing efforts, enabling targeted and personalized marketing campaigns.
@@ -271,7 +271,7 @@ export const online = [
       </li>
   </ul>
 
-    <br/><br/>
+    <br/>
     <h4 className="my-2">Streamlined Customer Service</h4>
     <ul>
     <li>Provide exceptional customer service with our CRM solutions, allowing you to manage customer inquiries, complaints, and support tickets efficiently.
@@ -301,7 +301,7 @@ export const online = [
     <h2>With Web Development Services, Its Easy To Achieve Your Business Goals</h2>
 
     At KodeGurus, we offer top-notch Website Development Services catering to our client's unique needs and goals. With our team of skilled and experienced developers, we strive to deliver exceptional digital solutions that elevate businesses and enhance their online presence.
-    <br/><br/>
+    <br/>
     Here are some of the services our Digital Marketing Company can deliver:
     <br/><br/>
 
@@ -338,7 +338,7 @@ export const online = [
   },
   {
     id: "service4",
-    cover: "./images/icon/contentMarketing.png",
+    cover:"./images/icon/contentMarketing.png",
     size: '1400-933',
     hoverCover: "./images/icon/contentMarketingHover.png",
     courseName: "Content Marketing Services",
@@ -464,8 +464,57 @@ export const online = [
     size: '1400-933',
     hoverCover: "./images/icon/googleAdsHover.png",
     courseName: "Google Ads/PPC",
-    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, sunt ut! Odit numquam delectus nisi! Quas ab blanditiis corporis perferendis maiores commodi cum. Nesciunt animi cupiditate beatae aliquam rem odit numquam vero veniam harum voluptates sequi eos excepturi expedita a illo tempore corrupti velit iure blanditiis nihil aperiam, nisi quae. Earum eveniet aperiam ut, fugit amet mollitia facilis tempora maxime quae soluta quia itaque veniam, ducimus corporis nostrum possimus cumque cum? Veniam hic, aliquid praesentium quam ipsa provident. Eligendi, ipsa. Repellendus nesciunt fugit, ex sed nam consequatur nihil itaque dicta mollitia facere sequi cum neque? Reiciendis nam architecto officia est."
-  },
+    paragraph: `
+    
+    <h1>Drive Targeted Traffic and Skyrocket Your Business with Google Ads/PPC</h1>
+    <br/>
+    <p>In today's highly competitive digital landscape, it's crucial to have a robust online presence to stand out from the crowd and capture the attention of your target audience. That's where Kodegurus comes in. As a leading provider of Google Ads/PPC services, we specialize in helping businesses achieve remarkable results by driving targeted website traffic and maximizing their return on investment.</p>
+    <br/>
+    <h2 className="my-2">Why Choose Kodegurus for Your Google Ads/PPC Campaigns?</h2>
+    <br/>
+    <ol>
+      <li><b style="color:#12343b;">Experienced Google Ads/PPC Specialists</b></li>
+      <p>Our team of seasoned Google Ads/PPC specialists has a deep understanding of the platform's intricacies and best practices. We stay up-to-date with the latest trends and techniques, ensuring that your campaigns are optimized to deliver outstanding results.</p>
+      <br/>
+      <li><b style="color:#12343b;">Customized Strategies for Maximum Impact</b></li>
+      <p>At Kodegurus, we believe in a personalized approach. We take the time to understand your business, industry, and target audience, allowing us to develop customized strategies that align with your goals and drive qualified leads to your website.</p>
+      <br/>
+      <li><b style="color:#12343b;">Comprehensive Keyword Research</b></li>
+      <p>Effective keyword research is the backbone of a successful Google Ads/PPC campaign. We conduct thorough research to identify the most relevant and high-converting keywords for your business, ensuring that your ads appear in front of the right people at the right time.</p>
+      <br/>
+
+      <li><b style="color:#12343b;">Compelling Ad Copy and Creative Design</b></li>
+      <p>We create compelling ad copy that not only grabs attention but also compels users to take action. Our talented copywriters and designers work together to craft visually appealing ads that align with your brand and resonate with your target audience.</p>
+      <br/>
+      <li><b style="color:#12343b;">Continuous Monitoring and Optimization</b></li>
+      <p>We believe in constant improvement. Our team closely monitors the performance of your Google Ads/PPC campaigns, making data-driven decisions to optimize your ads, keywords, and targeting. This iterative approach allows us to maximize your ROI and drive better results.
+      </p>
+      </ol>
+      <br/>
+      <h3>The Benefits of Google Ads/PPC</h3>
+      
+      <ol>
+      <br/>
+      <li><b style="color:#12343b;">Instant Online Visibility</b></li>
+      <p>With Google Ads/PPC, you can instantly place your business in front of potential customers actively searching for your products or services. It's a powerful way to gain immediate online visibility and generate targeted traffic to your website.
+      </p>
+      <br/>
+      <li><b style="color:#12343b;">Cost-effective Advertising
+      </b></li>
+      <p>Google Ads/PPC operates on a pay-per-click model, which means you only pay when someone clicks on your ad. This gives you better control over your advertising budget and ensures you invest in ads that drive tangible results.
+      </p>
+      <br/>
+      <li><b style="color:#12343b;">Highly Targeted Reach</b></li>
+      <p>Google Ads/PPC enables precise targeting options, allowing you to reach your ideal audience based on demographics, location, interests, and more. By focusing your efforts on the right audience, you can increase the likelihood of converting leads into customers.</p>
+      <br/>
+
+      <li><b style="color:#12343b;">Measurable Results and ROI</b></li>
+      <p>One of the most significant advantages of Google Ads/PPC is the ability to measure and track the performance of your campaigns. With detailed analytics and reporting, you can gain valuable insights into user behavior, conversion rates, and return on investment. This data empowers you to make informed decisions and optimize your campaigns for better results.</p>
+      <br/>      
+    </ol>
+
+
+    `  },
 ]
 export const process = [
   {
@@ -684,30 +733,48 @@ export const portfolio = [
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Akash Yadav",
+    post: "Client",
+    desc: `I had a great experience working with Kodegurus. I needed a website for my new business. The team of Kodeguru listened to my requirements and provided me with the website I was looking for. I will highly recommend them for any Digital Marketing work.`,
     cover: "./images/testo/t1.webp",
   },
   {
     id: 2,
-    name: "Krishna",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Mukesh Bhalla",
+    post: "Client",
+    desc:   `One of the best things about Kodegurus is their team of experts. They are highly dedicated and always there to work according to the requirements. On last moment, I had to change some of the pages' designs, and the Kodegurus team cooperated with me.`,
     cover: "./images/testo/t2.webp",
   },
   {
     id: 3,
-    name: "Madhav Singh",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Alisha Shinde",
+    post: "Client",
+    desc: `I am feeling grateful while writing the testimonial for Kodegurus. Unlike any other Digital Marketing Company, their team will listen to your requirements first. I am highly impressed with their all-time availability.
+    `,
     cover: "./images/testo/t3.webp",
   },
   {
     id: 4,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Pradeep Singh",
+    post: "Client",
+    desc:   `I worked with Kodegurus for the improvement of my website SEO. My website was new, and I was not aware of anything. Within 2 months, they improve the traffic on my website. I highly recommend them for any SEO work.
+    `,
+    cover: "./images/testo/t1.webp",
+  },
+  {
+    id: 5,
+    name: "Akash Mishra",
+    post: "Client",
+    desc: `I hired Kodegurus to clone an e-commerce website with specific requirements, which was quite a hard task. The team provided me with the website that I was looking for. They are always available and build a two-way relationship necessary for excellent work. 
+    `,
+    cover: "./images/testo/t3.webp",
+  },
+  {
+    id: 6,
+    name: "Piyush Sharma",
+    post: "Client",
+    desc: `I hired them to make a website with 3 panels, i.e., for the user, admin, and freelancer. It is a website where you can hire someone to do your projects. The developer completed the task within 3 months and gave me all the details I needed for the website.
+    `,
     cover: "./images/testo/t1.webp",
   },
 ]
