@@ -15,6 +15,7 @@ const Contact = () => {
         <>
             <MetaData title={"Contact"}/>
             <div className="contactUsPage"></div>
+            {/* <hr/> */}
             <section id='heading'>
                 <div className="container" >
                     <div className="row">
