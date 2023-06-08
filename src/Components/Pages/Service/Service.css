@@ -1,12 +1,16 @@
 .serviceBanner{
-    background-image: url("../../../../public/images/service/banner.jpg");
-    background-size: cover;
+    background-image: url("../../../../public/images/Icon/service.png");
+    /* background-size: cover; */
     padding-right: 0px!important;
     background-repeat: no-repeat;
     width: 100%;
     padding-top: 30%;
     height: 100%;
+    background-position: center;
     margin: 0 0 70px 0;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
 }
 .serviceImages{
     width:800px;

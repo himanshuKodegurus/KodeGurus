@@ -299,4 +299,7 @@ p {
   #heading h2 {
     font-size: 17px;
   }
+  .testimonial .testimonialCard .card-body p{
+    font-size: 13px;
+  }
 }
