@@ -51,7 +51,7 @@ const Header = () => {
           </div> */}
           <Link to={"/"} className="navbar-brand p-0">
             <div className="logo">
-            <img src="./images/logo/logo22.png" alt="Logo" className="mainLogo"/>
+            <img src="./images/logo/logo-5.png" alt="Logo" className="mainLogo"/>
               {/* <h1 className="m-0">KODEGURUS</h1>
               <span>Build Innovate & Inspire</span> */}
             </div>
@@ -99,11 +99,6 @@ const Header = () => {
                             </li>
                             <li>
                               <a className="menusAnchors" href="/">
-                                Vue.js
-                              </a>
-                            </li>
-                            <li>
-                              <a className="menusAnchors" href="/">
                                 HTML5
                               </a>
                             </li>
@@ -124,17 +119,12 @@ const Header = () => {
                             </li>
                             <li>
                               <a className="menusAnchors" href="/">
-                                Ruby on Rails
-                              </a>
-                            </li>
-                            <li>
-                              <a className="menusAnchors" href="/">
                                 Node.js
                               </a>
                             </li>
                             <li>
                               <a className="menusAnchors" href="/">
-                                Java
+                                CPP
                               </a>
                             </li>
                             <li>
@@ -144,12 +134,12 @@ const Header = () => {
                             </li>
                             <li>
                               <a className="menusAnchors" href="/">
-                                .Net
+                                Laravel
                               </a>
-                            </li>
+                            </li> 
                             <li>
                               <a className="menusAnchors" href="/">
-                                Magento
+                                Android  Development
                               </a>
                             </li>
                           </ul>
@@ -179,12 +169,7 @@ const Header = () => {
                             </li>
                             <li>
                               <a className="menusAnchors" href="/">
-                                Email Marketing
-                              </a>
-                            </li>
-                            <li>
-                              <a className="menusAnchors" href="/">
-                                Paid Ads Services
+                                Google Ads/PPC
                               </a>
                             </li>
                           </ul>
@@ -204,12 +189,7 @@ const Header = () => {
                             </li>
                             <li>
                               <a className="menusAnchors" href="/">
-                                Devops - Azure
-                              </a>
-                            </li>
-                            <li>
-                              <a className="menusAnchors" href="/">
-                                Devops - AWS
+                                AWS
                               </a>
                             </li>
                             <li>
@@ -219,22 +199,7 @@ const Header = () => {
                             </li>
                             <li>
                               <a className="menusAnchors" href="/">
-                                Project Consulting
-                              </a>
-                            </li>
-                            <li>
-                              <a className="menusAnchors" href="/">
-                                QA and Testing Services
-                              </a>
-                            </li>
-                            <li>
-                              <a className="menusAnchors" href="/">
-                                Application Maintenance & Support
-                              </a>
-                            </li>
-                            <li>
-                              <a className="menusAnchors" href="/">
-                                UI & UX Design
+                                App Development
                               </a>
                             </li>
                           </ul>
@@ -295,7 +260,7 @@ const Header = () => {
                   ></i>
                 </Link>
               </li>
-              <li className="nav-item hireBtn">
+              <li className="nav-item hireBtn my-md-0 my-2">
                 <Link className="nav-link hire py-0" to="https://mail.google.com/mail/?view=cm&fs=1&to=info@kodegurus.com" target="_blank">
                   Hire Us
                 </Link>
