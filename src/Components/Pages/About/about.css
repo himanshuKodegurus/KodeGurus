@@ -1,10 +1,16 @@
 .aboutBanner{
-    background-image: url("../../../../public/images/Icon/contactUs.png");
-  background-size: cover;
-  height: 200px;
-  /* padding-top: 25%; */
-  color: #fff;
-  margin: 0 0 70px 0;
+    background-image: url("../../../../public/images/Icon/about.png");
+    /* background-size: cover; */
+    padding-right: 0px!important;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 30%;
+    height: 100%;
+    background-position: center;
+    margin: 0 0 70px 0;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
 }
 .aboutContent h1{
     color: #12343b;

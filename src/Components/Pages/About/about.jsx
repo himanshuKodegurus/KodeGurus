@@ -6,7 +6,7 @@ import MetaData from '../../Common/MetaData/MetaData';
 const About = () => {
   return (
     <>
-    <MetaData title={"About us"}/>
+      <MetaData title={"About us"} />
       <div className="aboutBanner"></div>
       <section>
         <div className="container">
@@ -20,10 +20,6 @@ const About = () => {
                 Choose Kodegurus as your digital marketing partner and unlock the full potential of your online presence. <br />
               </p>
             </div>
-            {/* <div className="aboutContent my-3">
-              <h1 className='aboutheading my-3'>KODEGURUS TODAY</h1>
-              <p>In a rapidly changing and evolving world, the challenges we face are indeed unique and complex. To find solutions, we need forward-thinking, agile and innovators that can help transform complexities into simple solutioning which we can adapt, and blossom. At SyanSoft, we have the expertise at digital product engineering and deliver on our promise of innovative thinking. We not only solve today’s problems, it’s not enough. We do a bit more. We embrace the future, with vision and clarity about where technology & business are heading.</p>
-            </div> */}
           </div>
         </div>
       </section>

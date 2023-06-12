@@ -21,7 +21,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-md-6 pt-4">
                             <div className="row">
-                                <div className="col-md-6 ">
+                                <div className="col-md-6 ">.
                                     <div className="icon-box d-flex justify-content-center">
                                         <div className="icon-container">
                                             <span className='contactIcon'>

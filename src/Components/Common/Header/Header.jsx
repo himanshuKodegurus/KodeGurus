@@ -270,7 +270,7 @@ const Header = () => {
               <i className="fab fa-facebook-f icon"></i>
               <i className="fab fa-instagram icon"></i>
               <i className="fab fa-twitter icon"></i>
-              <i className="fab fa-youtube icon"></i>
+              <i className="fab fa-linkedin icon"></i>
             </div>
           </div>
         </nav>
