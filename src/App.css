@@ -35,7 +35,6 @@ body {
 
 .icon:hover {
   cursor: pointer;
-  background-color: black;
   transform: scale(1.2);
   transition: all 0.5s ease;
   color: white;

@@ -8,15 +8,17 @@ const Footer = () => {
       <div className="container footer">
         <div className="row m-0">
           <div className="col-md-3 col-sm-6 col-6">
-            <h1 className="logoText">
-              <b>KODEGURUS</b>
-            </h1>
+            <div className="footerLogo">
+              <Link to="/">
+              <img src="./images/logo/logo-7.png" alt="Logo" className="mainLogo"/>
+              </Link>
+            </div>
             <ul className="footer-lists">
               <li>
                 <Link to="/reactlang">
-                  A-143, 5th Floor, <br />
-                  Sebiz Square Corporate Tower, <br />
-                  Sector-67 Mohali, <br />
+                  A-143, 5th Floor, <br/>
+                  Sebiz Square Corporate Tower, <br/>
+                  Sector-67 Mohali, <br/>
                   Chandigradh - 441600
                 </Link>
               </li>

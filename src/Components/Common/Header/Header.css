@@ -74,12 +74,15 @@ header li a {
   padding: 25px;
   /* z-index: 10; */
   /* top: 88px; */
-  background-color: white;
+  background-color: #2d545e;
 }
 .service_menu h3 {
-  font-size: 15px;
-  color: rebeccapurple;
+  font-size: 20px;
+  color: #c89666;
   padding: 0px 0 5px 0;
+}
+.nav-link:focus, .nav-link:hover {
+  color:#c89666 ;
 }
 .submenusli h3 {
   margin: 10px;
@@ -90,6 +93,7 @@ header li a {
 .menusAnchors {
   color: #764d1a;
   padding: 0px;
+  font-size: 18px;
   transition: 0.5s;
   font-weight: 400 !important;
   text-decoration: none;
@@ -103,12 +107,12 @@ header li a {
 }
 .menusAnchors:hover {
   background: none;
-  color: #1eb2a6;
+  color: #c89666;
   transform: scale(1.15);
   /* padding-left: 5px !important; */
 }
 .nav-item{
-  margin: 0 10px;
+  margin: 0 30px;
   font-size: 18px;
 }
 .nav-item .nav-link .menuIcon {
@@ -124,6 +128,9 @@ header li a {
   display: block;
   transition: all 0.5s;
   z-index: 1;
+}
+.hireBtn{
+  margin-top: 6.75px!important;
 }
 .productSubMenus {
   /* display: none; */
@@ -144,9 +151,7 @@ header li a {
   background-color:white; */
   background-color: #2d545e;
 }
-.hireBtn{
-  margin-top: 7px;
-}
+
 /*--------header------------*/
 @media only screen and (max-width: 1050px) {
   .nav-item {
